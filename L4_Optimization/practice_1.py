@@ -7,7 +7,6 @@ n = 1000 # number of samples
 noise = 0.01 # noise level
 m = 100 # size of minibatch
 epochs = 1000
-lr = 0.01
 
 
 # randomly generated data
@@ -33,12 +32,15 @@ class SGD:
         self.lr = lr
     
     def update(self, params, grads):
-        for key in params.keys():
-            params[key] = params[key] - self.lr*grads[key]
+        with torch.no_grad():
+            params -= self.lr * grads
+        # for key in params.keys():
+        #     params[key] = params[key] - self.lr*grads[key]
             # params['W'] = W_model
             # grads['W'] = W_model.grad
+            # in-place error
             
-opt = SGD(lr=lr)
+opt = SGD(lr=0.01)
 
 for epoch in range(epochs):
 
@@ -59,10 +61,7 @@ for epoch in range(epochs):
 
     loss.backward()
 
-    grads = {'W': W_model.grad}
-    # key : W value : W_model.grad
-
-    opt.update({'W': W_model}, grads)
+    opt.update(W_model, W_model.grad)
 
     W_model.grad.zero_()
 
