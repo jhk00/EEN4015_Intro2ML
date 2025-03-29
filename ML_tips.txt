@@ -1,0 +1,54 @@
+1. Setting Hyperparameter
+- validation set에 맞는 hyperparameter를 고를것 -> 적은 데이터 셋에도 유용하게 사용될 것, 너무 빈번하게 딥러닝을 사용하지 말 것(cross validation을 참고)
+
+2. Training Neural Networks
+1) Before Training
+- Activation functions
+- Data preprocessing
+- weight initialization
+- regularization
+
+2) Training Dynamics
+- learning rate schedules
+- hyperparameter optimization
+
+3) After Training
+- Model ensembles
+-> 기본 틀
+
+3. Activation Function
+: function별로 각각 어떤 상황에 사용하는지 정리 필요
+: image classification에서는 ReLU와 Softmax 사용하라고 추천
+
+4. Data Preprocessing
+- Activation Statistics : Xavier initialization이 가장 보편적, MSRA 언급
+- Overfitting : -> 어떻게 피할 것인가?에 대한 접근이 필요
+sol) regularization 이용, 최적화를 잘하는 알고리즘 사용(훈련 과정에서 loss를 줄임)
+     regularization common pattern : dropout, batch normalization, data augmentation(dropout이 제일 유명하며, L2, L1 regularization이 가장 간단한 예시)
+
+5. Data Augmentation
+- HorizontalFlip (verticalflip은 사용 X -> 실제 자연에서 보기 힘든 케이스)
+- Crop and Scale ( 주로 Resnet에서 사용)
+- CIFAR100(현재 시각지능에서 사용하는 데이터셋) : center cropping사용 추천
+
+* training data : 데이터 전처리가 적용된 데이터 / testing data : original data
+
+6. Learning Rate Schedules( 교수님 강조 )
+- Step Schedule : lr을 같은 크기로 일정하게 감소시키기
+- Cosine Schedule : 연속된 지점에서 lr 감소시키기(cosine 함수를 따르면서) -> lr을 고정하지 말고 최적화 도구 모두 실행해볼것
+
+파라미터 고르기 : Grid Search, Random Search
+
+7. Choosing Hyperparameters
+- 초기 loss값 확인하기
+- 작은 샘플에 대해 오버피팅(초기상태 체크)
+→ 정확도 100을 나오게 (5~10 minibatches)
+→ regularization X
+
+LR이 너무 높지도 너무 낮지도 않아야함 , loss가 발산해도 안되고 0에 수렴해도 안된다는 뜻
+
+- loss를 줄이는 LR 찾기(… 이건 걍 하나씩 다 해보라는 것 같음 구조를 보던지 모든 데이터를 다 쓰던지 가중치를 줄이던지 어쩌고.. 근데 100번 iteration 안에서 찾기)
+- 1e-1, 1e-2, 1e-3, 1e-4 : 교수님 피셜 굿
+- 최적의 하이퍼파라미터를 찾을 때 한 번에 하나씩 바꿔가면서 찾으면 시간이 짱 많이 걸리기 때문에 비효율적임. 그래서 한번에 여러 개씩 테스트 해보는 것 추천
+
+8. Model Ensembles : 별다른 설명 Xx
