@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import torchvision
-from torchvision import datasets, transforms, models
+from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
 import sys
 
@@ -34,77 +34,86 @@ except:
 
 print(f"사용 중인 장치: {device}")
 
-num_epochs = 20
+num_epochs = 5
 batch_size = 128
-num_classes = 10 # 0~9
+num_classes = 10  # 0~9
 
+# 데이터 전처리 및 증강
 train_transform = transforms.Compose([
-    transforms.Resize((256, 256)),
-    transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),  # 랜덤 크롭 + 스케일링(80%~100% 크기)
+    transforms.Resize((32, 32)),  # CNN에 맞게 이미지 크기 조정
     transforms.RandomAffine(degrees=10, translate=(0.1, 0.1), scale=(0.95, 1.05)),  # 약한 회전, 이동, 스케일링
     transforms.ToTensor(),
-    # 학습을 위한 텐서 형태로 변환 (C,H,W)
-    transforms.Normalize((0.5,), (0.5,)) 
-    # 정규화를 통해 값의 범위 조정 (0~255) -> [-1,1]
-    # 데이터 분표 표준화, 학습 중 기울기가 적절하게 계산됨
+    transforms.Normalize((0.1307,), (0.3081,))  # MNIST 평균(0.1307)과 표준편차(0.3081)로 정규화
 ])
-
 
 test_transform = transforms.Compose([
-    transforms.Resize((224, 224)),
+    transforms.Resize((32, 32)),  # CNN에 맞게 이미지 크기 조정
     transforms.ToTensor(),
-    transforms.Normalize((0.5,), (0.5,))
+    transforms.Normalize((0.1307,), (0.3081,))  # MNIST 평균과 표준편차로 정규화
 ])
 
-
-
+# 데이터셋 로드
 train_dataset = datasets.MNIST(root='./data/', train=True, transform=train_transform, download=True)
 test_dataset = datasets.MNIST(root='./data', train=False, transform=test_transform, download=True)
 
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
 
-
-
-# 배치 하나 추출
+# 배치 하나 추출 및 확인
 examples = enumerate(train_loader)
 batch_idx, (example_data, example_targets) = next(examples)
 
-print(f"이미지 shape: {example_data.shape}") 
-
-"""
-[128, 1, 224, 224] = [batch_size, channel, Height, Weight]
-변환 후 224×224 픽셀 크기 흑백 이미지
-"""
-
+print(f"이미지 shape: {example_data.shape}")  # [batch_size, channel, Height, Weight]
 print(f"라벨 shape: {example_targets.shape}")
 
-"""
-128개의 이미지 각각에 대한 정답 라벨(0~9 숫자)이 1차원 텐서로 존재 
-"""
-
-
-class Model(nn.Module):
+# CNN 모델 정의
+class CNN(nn.Module):
     def __init__(self, num_classes=10):
-        super(Model, self).__init__()
-        self.resnet = models.resnet18(pretrained=True)
-        self.resnet.conv1 = nn.Conv2d(1, 64, kernel_size=3, stride=1, padding=1, bias=False)
-        # 더 작은 2x2 커널 사이즈 하려고 했으나 짝수 크기 커널은 중심점이 없어 비추천 (ai response)
-        #
-        # orgin conv1 -> [3,64...]
-        # MNIST -> [1,64..] (흑백)
-        self.resnet.fc = nn.Linear(self.resnet.fc.in_features, num_classes)
-
+        super(CNN, self).__init__()
+        
+        self.conv1 = nn.Sequential(
+            nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=1), # 입력: 1x32x32, 출력: 32x32x32
+            nn.BatchNorm2d(32),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2) # 출력: 32x16x16
+        )
+        
+        self.conv2 = nn.Sequential(
+            nn.Conv2d(32, 64, kernel_size=3, stride=1, padding=1), # 입력: 32x16x16, 출력: 64x16x16
+            nn.BatchNorm2d(64),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2) # 출력: 64x8x8
+        )
+        
+        self.conv3 = nn.Sequential(
+            nn.Conv2d(64, 128, kernel_size=3, stride=1, padding=1), # 입력: 64x8x8, 출력: 128x8x8
+            nn.BatchNorm2d(128),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=2, stride=2) # 출력: 128x4x4
+        )
+        
+        self.classifier = nn.Sequential(
+            nn.Flatten(), # 128*4*4 = 2048
+            nn.Linear(128 * 4 * 4, 512),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(512, num_classes)
+        )
+        
     def forward(self, x):
-        return self.resnet(x)
+        x = self.conv1(x)
+        x = self.conv2(x)
+        x = self.conv3(x)
+        x = self.classifier(x)
+        return x
 
-
-model = Model(num_classes=num_classes).to(device)
+# 모델 초기화 및 장치 설정
+model = CNN(num_classes=num_classes).to(device)
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-2)
+optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
 
-
-def train(model, train_loader, criterion, optimizer, device):  # 오타 수정: optimzer -> optimizer
+# 학습 함수
+def train(model, train_loader, criterion, optimizer, device):
     loss_sum = 0.0
     correct = 0.0
     total = 0
@@ -129,9 +138,7 @@ def train(model, train_loader, criterion, optimizer, device):  # 오타 수정: 
 
     return loss_sum / len(train_loader), 100. * correct / total
 
-
-
-
+# 평가 함수
 def evaluate(model, test_loader, criterion, device):
     model.eval()
     loss_sum = 0.0
@@ -139,7 +146,7 @@ def evaluate(model, test_loader, criterion, device):
     total = 0
 
     with torch.no_grad():
-        for batch_idx, (images, labels) in enumerate(test_loader):  # 오타 수정: iagmes -> images
+        for batch_idx, (images, labels) in enumerate(test_loader):
             images, labels = images.to(device), labels.to(device)
 
             outputs = model(images)
@@ -152,6 +159,7 @@ def evaluate(model, test_loader, criterion, device):
 
     return loss_sum / len(test_loader), 100. * correct / total
 
+# 학습 및 평가 진행
 train_losses = []
 train_accs = []
 test_losses = []
@@ -169,3 +177,29 @@ for epoch in range(num_epochs):
     test_accs.append(test_acc)
     
     print(f'Epoch: {epoch+1}/{num_epochs}, Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}%, Test Loss: {test_loss:.4f}, Test Acc: {test_acc:.2f}%')
+
+# 학습 결과 시각화
+plt.figure(figsize=(12, 5))
+
+plt.subplot(1, 2, 1)
+plt.plot(train_losses, label='Train Loss')
+plt.plot(test_losses, label='Test Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.legend()
+plt.title('Loss Curves')
+
+plt.subplot(1, 2, 2)
+plt.plot(train_accs, label='Train Accuracy')
+plt.plot(test_accs, label='Test Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy (%)')
+plt.legend()
+plt.title('Accuracy Curves')
+
+plt.tight_layout()
+plt.show()
+
+# 모델 저장
+torch.save(model.state_dict(), 'mnist_cnn.pth')
+print("모델이 'mnist_cnn.pth'로 저장되었습니다.")
