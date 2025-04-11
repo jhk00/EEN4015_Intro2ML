@@ -1,0 +1,8 @@
+{"time":"2025-04-11T13:28:57.261516209Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250411_132855-slehgam7/logs/debug-core.log"}
+{"time":"2025-04-11T13:28:57.580073174Z","level":"INFO","msg":"created new stream","id":"slehgam7"}
+{"time":"2025-04-11T13:28:57.580126218Z","level":"INFO","msg":"stream: started","id":"slehgam7"}
+{"time":"2025-04-11T13:28:57.580136401Z","level":"INFO","msg":"handler: started","stream_id":"slehgam7"}
+{"time":"2025-04-11T13:28:57.580150267Z","level":"INFO","msg":"sender: started","stream_id":"slehgam7"}
+{"time":"2025-04-11T13:28:57.580174386Z","level":"INFO","msg":"writer: Do: started","stream_id":"slehgam7"}
+{"time":"2025-04-11T13:28:57.906536936Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T13:31:50.833728165Z","level":"INFO","msg":"Pausing system monitor"}

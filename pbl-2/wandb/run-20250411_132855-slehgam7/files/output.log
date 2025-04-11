@@ -1,0 +1,5 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Using device: cuda
+2개의 GPU를 사용합니다.
+Epoch 1/20:   0%|                                       | 0/20 [02:49<?, ?epoch/s, train_loss=3.5592, train_acc=15.39%, lr=0.001000]
