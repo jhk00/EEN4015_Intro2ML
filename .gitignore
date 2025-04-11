@@ -1,0 +1,10 @@
+# .gitignore
+
+# Ignore the data folder inside pbl-2
+pbl-2/data/
+
+# Optional: Ignore typical temporary files
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
