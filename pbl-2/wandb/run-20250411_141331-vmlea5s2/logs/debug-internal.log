@@ -1,0 +1,16 @@
+{"time":"2025-04-11T14:13:33.109536261Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250411_141331-vmlea5s2/logs/debug-core.log"}
+{"time":"2025-04-11T14:13:33.456934607Z","level":"INFO","msg":"created new stream","id":"vmlea5s2"}
+{"time":"2025-04-11T14:13:33.457008033Z","level":"INFO","msg":"stream: started","id":"vmlea5s2"}
+{"time":"2025-04-11T14:13:33.457015575Z","level":"INFO","msg":"handler: started","stream_id":"vmlea5s2"}
+{"time":"2025-04-11T14:13:33.457045421Z","level":"INFO","msg":"sender: started","stream_id":"vmlea5s2"}
+{"time":"2025-04-11T14:13:33.457077341Z","level":"INFO","msg":"writer: Do: started","stream_id":"vmlea5s2"}
+{"time":"2025-04-11T14:13:33.945341253Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T15:06:46.685488158Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T15:06:46.685549873Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T15:06:47.657567774Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.42599981,"progress":"197.2KB/197.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.18390795,"progress":"776B/776B"}],"total_operations":2}}
+{"time":"2025-04-11T15:06:50.513766284Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T15:06:50.77777275Z","level":"INFO","msg":"stream: closing","id":"vmlea5s2"}
+{"time":"2025-04-11T15:06:50.777796971Z","level":"INFO","msg":"handler: closed","stream_id":"vmlea5s2"}
+{"time":"2025-04-11T15:06:50.777807801Z","level":"INFO","msg":"writer: Close: closed","stream_id":"vmlea5s2"}
+{"time":"2025-04-11T15:06:50.777829724Z","level":"INFO","msg":"sender: closed","stream_id":"vmlea5s2"}
+{"time":"2025-04-11T15:06:50.777890069Z","level":"INFO","msg":"stream: closed","id":"vmlea5s2"}

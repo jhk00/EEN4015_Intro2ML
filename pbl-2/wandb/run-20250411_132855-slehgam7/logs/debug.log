@@ -23,3 +23,14 @@ config: {'_wandb': {}}
 2025-04-11 13:29:00,761 INFO    MainThread:2940751 [wandb_watch.py:_watch():71] Watching
 2025-04-11 13:31:50,832 INFO    MainThread:2940751 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
 2025-04-11 13:31:50,833 INFO    MainThread:2940751 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-11 14:13:31,733 INFO    MainThread:2940751 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-11 14:13:31,753 INFO    MainThread:2940751 [wandb_run.py:_finish():2189] finishing run sokjh1310-hanyang-university/PBL-2/slehgam7
+2025-04-11 14:13:31,753 INFO    MainThread:2940751 [jupyter.py:save_history():460] not saving jupyter history
+2025-04-11 14:13:31,753 INFO    MainThread:2940751 [jupyter.py:save_ipynb():384] not saving jupyter notebook
+2025-04-11 14:13:31,753 INFO    MainThread:2940751 [wandb_init.py:_jupyter_teardown():563] cleaning up jupyter logic
+2025-04-11 14:13:31,754 INFO    MainThread:2940751 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-11 14:13:31,754 INFO    MainThread:2940751 [wandb_run.py:_restore():2401] restore
+2025-04-11 14:13:31,754 INFO    MainThread:2940751 [wandb_run.py:_restore():2407] restore done
+2025-04-11 14:13:33,061 INFO    MainThread:2940751 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-11 14:13:33,061 INFO    MainThread:2940751 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-11 14:13:33,062 INFO    MainThread:2940751 [wandb_run.py:_footer_sync_info():4025] logging synced files
