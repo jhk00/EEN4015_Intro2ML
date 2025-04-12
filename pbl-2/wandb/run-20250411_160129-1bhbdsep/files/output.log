@@ -104,3 +104,468 @@ Epoch [9], Batch [250/391], Loss: 0.3711
 Epoch [9], Batch [300/391], Loss: 0.3964
 Epoch [9], Batch [350/391], Loss: 0.3516
 Train set: Epoch: 9, Average loss:0.3161, LR: 0.001000 Top-1 Accuracy: 90.3560%, Top-5 Accuracy: 99.4920%, Time consumed:138.73s
+Test set: Epoch: 9, Average loss:2.1640, Top-1 Accuracy: 52.5600%, Top-5 Accuracy: 81.5500%, Time consumed:24.10s
+
+Epoch [10], Batch [50/391], Loss: 0.1556
+Epoch [10], Batch [100/391], Loss: 0.1102
+Epoch [10], Batch [150/391], Loss: 0.1593
+Epoch [10], Batch [200/391], Loss: 0.0902
+Epoch [10], Batch [250/391], Loss: 0.2868
+Epoch [10], Batch [300/391], Loss: 0.2726
+Epoch [10], Batch [350/391], Loss: 0.2483
+Train set: Epoch: 10, Average loss:0.1992, LR: 0.001000 Top-1 Accuracy: 94.0240%, Top-5 Accuracy: 99.8340%, Time consumed:140.86s
+Test set: Epoch: 10, Average loss:2.2860, Top-1 Accuracy: 52.5100%, Top-5 Accuracy: 81.2300%, Time consumed:26.53s
+
+Epoch [11], Batch [50/391], Loss: 0.0810
+Epoch [11], Batch [100/391], Loss: 0.1021
+Epoch [11], Batch [150/391], Loss: 0.1070
+Epoch [11], Batch [200/391], Loss: 0.1456
+Epoch [11], Batch [250/391], Loss: 0.1424
+Epoch [11], Batch [300/391], Loss: 0.1902
+Epoch [11], Batch [350/391], Loss: 0.2179
+Train set: Epoch: 11, Average loss:0.1344, LR: 0.001000 Top-1 Accuracy: 96.1200%, Top-5 Accuracy: 99.9500%, Time consumed:141.02s
+Test set: Epoch: 11, Average loss:2.3665, Top-1 Accuracy: 53.5900%, Top-5 Accuracy: 81.7000%, Time consumed:24.06s
+
+New best top-1 accuracy: 53.59%, top-5 accuracy: 81.70%
+Epoch [12], Batch [50/391], Loss: 0.1194
+Epoch [12], Batch [100/391], Loss: 0.1507
+Epoch [12], Batch [150/391], Loss: 0.0811
+Epoch [12], Batch [200/391], Loss: 0.1767
+Epoch [12], Batch [250/391], Loss: 0.1567
+Epoch [12], Batch [300/391], Loss: 0.1629
+Epoch [12], Batch [350/391], Loss: 0.2500
+Train set: Epoch: 12, Average loss:0.1391, LR: 0.001000 Top-1 Accuracy: 95.7220%, Top-5 Accuracy: 99.9300%, Time consumed:140.01s
+Test set: Epoch: 12, Average loss:2.5126, Top-1 Accuracy: 53.0800%, Top-5 Accuracy: 81.1600%, Time consumed:23.95s
+
+Epoch [13], Batch [50/391], Loss: 0.1592
+Epoch [13], Batch [100/391], Loss: 0.1114
+Epoch [13], Batch [150/391], Loss: 0.1531
+Epoch [13], Batch [200/391], Loss: 0.1183
+Epoch [13], Batch [250/391], Loss: 0.1911
+Epoch [13], Batch [300/391], Loss: 0.2027
+Epoch [13], Batch [350/391], Loss: 0.1322
+Train set: Epoch: 13, Average loss:0.1257, LR: 0.001000 Top-1 Accuracy: 96.1000%, Top-5 Accuracy: 99.9080%, Time consumed:140.40s
+Test set: Epoch: 13, Average loss:2.4466, Top-1 Accuracy: 54.2500%, Top-5 Accuracy: 82.1500%, Time consumed:24.49s
+
+New best top-1 accuracy: 54.25%, top-5 accuracy: 82.15%
+Epoch [14], Batch [50/391], Loss: 0.1219
+Epoch [14], Batch [100/391], Loss: 0.0654
+Epoch [14], Batch [150/391], Loss: 0.0606
+Epoch [14], Batch [200/391], Loss: 0.0443
+Epoch [14], Batch [250/391], Loss: 0.0707
+Epoch [14], Batch [300/391], Loss: 0.0869
+Epoch [14], Batch [350/391], Loss: 0.1220
+Train set: Epoch: 14, Average loss:0.0987, LR: 0.001000 Top-1 Accuracy: 97.0480%, Top-5 Accuracy: 99.9580%, Time consumed:137.03s
+Test set: Epoch: 14, Average loss:2.6971, Top-1 Accuracy: 52.2800%, Top-5 Accuracy: 80.9900%, Time consumed:24.75s
+
+Epoch [15], Batch [50/391], Loss: 0.0291
+Epoch [15], Batch [100/391], Loss: 0.0990
+Epoch [15], Batch [150/391], Loss: 0.0479
+Epoch [15], Batch [200/391], Loss: 0.1032
+Epoch [15], Batch [250/391], Loss: 0.1063
+Epoch [15], Batch [300/391], Loss: 0.0949
+Epoch [15], Batch [350/391], Loss: 0.1554
+Train set: Epoch: 15, Average loss:0.0920, LR: 0.001000 Top-1 Accuracy: 97.1780%, Top-5 Accuracy: 99.9620%, Time consumed:141.85s
+Test set: Epoch: 15, Average loss:2.7165, Top-1 Accuracy: 53.6600%, Top-5 Accuracy: 81.3400%, Time consumed:26.04s
+
+Epoch [16], Batch [50/391], Loss: 0.0869
+Epoch [16], Batch [100/391], Loss: 0.0530
+Epoch [16], Batch [150/391], Loss: 0.0821
+Epoch [16], Batch [200/391], Loss: 0.1017
+Epoch [16], Batch [250/391], Loss: 0.1220
+Epoch [16], Batch [300/391], Loss: 0.0902
+Epoch [16], Batch [350/391], Loss: 0.1464
+Train set: Epoch: 16, Average loss:0.1028, LR: 0.001000 Top-1 Accuracy: 96.7320%, Top-5 Accuracy: 99.9420%, Time consumed:136.07s
+Test set: Epoch: 16, Average loss:2.7810, Top-1 Accuracy: 53.1300%, Top-5 Accuracy: 80.9300%, Time consumed:24.81s
+
+Epoch [17], Batch [50/391], Loss: 0.0731
+Epoch [17], Batch [100/391], Loss: 0.1131
+Epoch [17], Batch [150/391], Loss: 0.0871
+Epoch [17], Batch [200/391], Loss: 0.0499
+Epoch [17], Batch [250/391], Loss: 0.0731
+Epoch [17], Batch [300/391], Loss: 0.1290
+Epoch [17], Batch [350/391], Loss: 0.0666
+Train set: Epoch: 17, Average loss:0.0879, LR: 0.001000 Top-1 Accuracy: 97.1940%, Top-5 Accuracy: 99.9640%, Time consumed:138.99s
+Test set: Epoch: 17, Average loss:2.8112, Top-1 Accuracy: 53.0800%, Top-5 Accuracy: 80.9900%, Time consumed:24.82s
+
+Epoch [18], Batch [50/391], Loss: 0.0637
+Epoch [18], Batch [100/391], Loss: 0.0460
+Epoch [18], Batch [150/391], Loss: 0.0601
+Epoch [18], Batch [200/391], Loss: 0.0540
+Epoch [18], Batch [250/391], Loss: 0.0694
+Epoch [18], Batch [300/391], Loss: 0.1554
+Epoch [18], Batch [350/391], Loss: 0.2045
+Train set: Epoch: 18, Average loss:0.0754, LR: 0.001000 Top-1 Accuracy: 97.6840%, Top-5 Accuracy: 99.9740%, Time consumed:141.48s
+Test set: Epoch: 18, Average loss:2.9530, Top-1 Accuracy: 51.9900%, Top-5 Accuracy: 80.2700%, Time consumed:25.25s
+
+Epoch [19], Batch [50/391], Loss: 0.0836
+Epoch [19], Batch [100/391], Loss: 0.1212
+Epoch [19], Batch [150/391], Loss: 0.0375
+Epoch [19], Batch [200/391], Loss: 0.0520
+Epoch [19], Batch [250/391], Loss: 0.0863
+Epoch [19], Batch [300/391], Loss: 0.0589
+Epoch [19], Batch [350/391], Loss: 0.1140
+Train set: Epoch: 19, Average loss:0.0775, LR: 0.001000 Top-1 Accuracy: 97.4360%, Top-5 Accuracy: 99.9700%, Time consumed:135.12s
+Test set: Epoch: 19, Average loss:3.0636, Top-1 Accuracy: 52.6000%, Top-5 Accuracy: 79.7600%, Time consumed:23.92s
+
+Epoch [20], Batch [50/391], Loss: 0.0567
+Epoch [20], Batch [100/391], Loss: 0.0418
+Epoch [20], Batch [150/391], Loss: 0.0522
+Epoch [20], Batch [200/391], Loss: 0.0631
+Epoch [20], Batch [250/391], Loss: 0.0769
+Epoch [20], Batch [300/391], Loss: 0.0784
+Epoch [20], Batch [350/391], Loss: 0.0946
+Train set: Epoch: 20, Average loss:0.0746, LR: 0.001000 Top-1 Accuracy: 97.6440%, Top-5 Accuracy: 99.9640%, Time consumed:134.66s
+Test set: Epoch: 20, Average loss:2.9522, Top-1 Accuracy: 54.1900%, Top-5 Accuracy: 80.8800%, Time consumed:23.86s
+
+Epoch [21], Batch [50/391], Loss: 0.0375
+Epoch [21], Batch [100/391], Loss: 0.0625
+Epoch [21], Batch [150/391], Loss: 0.0721
+Epoch [21], Batch [200/391], Loss: 0.0514
+Epoch [21], Batch [250/391], Loss: 0.0346
+Epoch [21], Batch [300/391], Loss: 0.0609
+Epoch [21], Batch [350/391], Loss: 0.0257
+Train set: Epoch: 21, Average loss:0.0579, LR: 0.001000 Top-1 Accuracy: 98.1820%, Top-5 Accuracy: 99.9780%, Time consumed:136.06s
+Test set: Epoch: 21, Average loss:2.9888, Top-1 Accuracy: 53.9000%, Top-5 Accuracy: 80.6700%, Time consumed:23.78s
+
+Epoch [22], Batch [50/391], Loss: 0.0332
+Epoch [22], Batch [100/391], Loss: 0.1028
+Epoch [22], Batch [150/391], Loss: 0.0185
+Epoch [22], Batch [200/391], Loss: 0.0980
+Epoch [22], Batch [250/391], Loss: 0.0213
+Epoch [22], Batch [300/391], Loss: 0.1044
+Epoch [22], Batch [350/391], Loss: 0.1022
+Train set: Epoch: 22, Average loss:0.0698, LR: 0.001000 Top-1 Accuracy: 97.8000%, Top-5 Accuracy: 99.9680%, Time consumed:138.38s
+Test set: Epoch: 22, Average loss:3.2072, Top-1 Accuracy: 52.4100%, Top-5 Accuracy: 80.2800%, Time consumed:24.87s
+
+Epoch [23], Batch [50/391], Loss: 0.0504
+Epoch [23], Batch [100/391], Loss: 0.0413
+Epoch [23], Batch [150/391], Loss: 0.0901
+Epoch [23], Batch [200/391], Loss: 0.1303
+Epoch [23], Batch [250/391], Loss: 0.0658
+Epoch [23], Batch [300/391], Loss: 0.1576
+Epoch [23], Batch [350/391], Loss: 0.0742
+Train set: Epoch: 23, Average loss:0.0790, LR: 0.001000 Top-1 Accuracy: 97.4640%, Top-5 Accuracy: 99.9720%, Time consumed:140.50s
+Test set: Epoch: 23, Average loss:3.1388, Top-1 Accuracy: 52.8100%, Top-5 Accuracy: 80.0500%, Time consumed:24.85s
+
+Epoch [24], Batch [50/391], Loss: 0.0731
+Epoch [24], Batch [100/391], Loss: 0.0915
+Epoch [24], Batch [150/391], Loss: 0.0397
+Epoch [24], Batch [200/391], Loss: 0.0820
+Epoch [24], Batch [250/391], Loss: 0.0170
+Epoch [24], Batch [300/391], Loss: 0.0938
+Epoch [24], Batch [350/391], Loss: 0.0377
+Train set: Epoch: 24, Average loss:0.0556, LR: 0.001000 Top-1 Accuracy: 98.2540%, Top-5 Accuracy: 99.9760%, Time consumed:141.66s
+Test set: Epoch: 24, Average loss:2.9777, Top-1 Accuracy: 54.6500%, Top-5 Accuracy: 80.5600%, Time consumed:24.29s
+
+New best top-1 accuracy: 54.65%, top-5 accuracy: 80.56%
+Epoch [25], Batch [50/391], Loss: 0.0526
+Epoch [25], Batch [100/391], Loss: 0.0727
+Epoch [25], Batch [150/391], Loss: 0.0108
+Epoch [25], Batch [200/391], Loss: 0.0647
+Epoch [25], Batch [250/391], Loss: 0.0761
+Epoch [25], Batch [300/391], Loss: 0.0548
+Epoch [25], Batch [350/391], Loss: 0.0376
+Train set: Epoch: 25, Average loss:0.0538, LR: 0.001000 Top-1 Accuracy: 98.3340%, Top-5 Accuracy: 99.9800%, Time consumed:134.21s
+Test set: Epoch: 25, Average loss:2.9729, Top-1 Accuracy: 54.4300%, Top-5 Accuracy: 81.1600%, Time consumed:23.92s
+
+Epoch [26], Batch [50/391], Loss: 0.0692
+Epoch [26], Batch [100/391], Loss: 0.0050
+Epoch [26], Batch [150/391], Loss: 0.0179
+Epoch [26], Batch [200/391], Loss: 0.0239
+Epoch [26], Batch [250/391], Loss: 0.0202
+Epoch [26], Batch [300/391], Loss: 0.0096
+Epoch [26], Batch [350/391], Loss: 0.0936
+Train set: Epoch: 26, Average loss:0.0425, LR: 0.001000 Top-1 Accuracy: 98.7080%, Top-5 Accuracy: 99.9880%, Time consumed:137.66s
+Test set: Epoch: 26, Average loss:3.0990, Top-1 Accuracy: 53.6900%, Top-5 Accuracy: 80.9400%, Time consumed:24.75s
+
+Epoch [27], Batch [50/391], Loss: 0.0188
+Epoch [27], Batch [100/391], Loss: 0.0454
+Epoch [27], Batch [150/391], Loss: 0.0314
+Epoch [27], Batch [200/391], Loss: 0.0968
+Epoch [27], Batch [250/391], Loss: 0.0477
+Epoch [27], Batch [300/391], Loss: 0.0383
+Epoch [27], Batch [350/391], Loss: 0.0343
+Train set: Epoch: 27, Average loss:0.0548, LR: 0.001000 Top-1 Accuracy: 98.2180%, Top-5 Accuracy: 99.9800%, Time consumed:137.12s
+Test set: Epoch: 27, Average loss:3.1996, Top-1 Accuracy: 54.1000%, Top-5 Accuracy: 80.5600%, Time consumed:24.60s
+
+Epoch [28], Batch [50/391], Loss: 0.0398
+Epoch [28], Batch [100/391], Loss: 0.0176
+Epoch [28], Batch [150/391], Loss: 0.0737
+Epoch [28], Batch [200/391], Loss: 0.0653
+Epoch [28], Batch [250/391], Loss: 0.0786
+Epoch [28], Batch [300/391], Loss: 0.1764
+Epoch [28], Batch [350/391], Loss: 0.0790
+Train set: Epoch: 28, Average loss:0.0730, LR: 0.001000 Top-1 Accuracy: 97.6760%, Top-5 Accuracy: 99.9580%, Time consumed:140.42s
+Test set: Epoch: 28, Average loss:3.1427, Top-1 Accuracy: 52.6500%, Top-5 Accuracy: 80.9500%, Time consumed:25.16s
+
+Epoch [29], Batch [50/391], Loss: 0.0997
+Epoch [29], Batch [100/391], Loss: 0.0215
+Epoch [29], Batch [150/391], Loss: 0.0394
+Epoch [29], Batch [200/391], Loss: 0.0265
+Epoch [29], Batch [250/391], Loss: 0.0702
+Epoch [29], Batch [300/391], Loss: 0.0243
+Epoch [29], Batch [350/391], Loss: 0.0734
+Train set: Epoch: 29, Average loss:0.0469, LR: 0.001000 Top-1 Accuracy: 98.4900%, Top-5 Accuracy: 99.9820%, Time consumed:135.83s
+Test set: Epoch: 29, Average loss:3.0479, Top-1 Accuracy: 54.5800%, Top-5 Accuracy: 81.5600%, Time consumed:24.81s
+
+Epoch [30], Batch [50/391], Loss: 0.0247
+Epoch [30], Batch [100/391], Loss: 0.0085
+Epoch [30], Batch [150/391], Loss: 0.0152
+Epoch [30], Batch [200/391], Loss: 0.0201
+Epoch [30], Batch [250/391], Loss: 0.0132
+Epoch [30], Batch [300/391], Loss: 0.0365
+Epoch [30], Batch [350/391], Loss: 0.0583
+Train set: Epoch: 30, Average loss:0.0329, LR: 0.001000 Top-1 Accuracy: 98.9820%, Top-5 Accuracy: 99.9860%, Time consumed:144.42s
+Test set: Epoch: 30, Average loss:3.2490, Top-1 Accuracy: 54.1700%, Top-5 Accuracy: 80.9100%, Time consumed:24.28s
+
+Epoch [31], Batch [50/391], Loss: 0.0281
+Epoch [31], Batch [100/391], Loss: 0.0298
+Epoch [31], Batch [150/391], Loss: 0.0510
+Epoch [31], Batch [200/391], Loss: 0.0411
+Epoch [31], Batch [250/391], Loss: 0.0835
+Epoch [31], Batch [300/391], Loss: 0.1173
+Epoch [31], Batch [350/391], Loss: 0.1181
+Train set: Epoch: 31, Average loss:0.0524, LR: 0.001000 Top-1 Accuracy: 98.2540%, Top-5 Accuracy: 99.9820%, Time consumed:132.96s
+Test set: Epoch: 31, Average loss:3.3694, Top-1 Accuracy: 52.3800%, Top-5 Accuracy: 80.4500%, Time consumed:23.96s
+
+Epoch [32], Batch [50/391], Loss: 0.0640
+Epoch [32], Batch [100/391], Loss: 0.0206
+Epoch [32], Batch [150/391], Loss: 0.0367
+Epoch [32], Batch [200/391], Loss: 0.0750
+Epoch [32], Batch [250/391], Loss: 0.0366
+Epoch [32], Batch [300/391], Loss: 0.0455
+Epoch [32], Batch [350/391], Loss: 0.0650
+Train set: Epoch: 32, Average loss:0.0617, LR: 0.001000 Top-1 Accuracy: 97.9940%, Top-5 Accuracy: 99.9720%, Time consumed:131.97s
+Test set: Epoch: 32, Average loss:3.2050, Top-1 Accuracy: 53.8500%, Top-5 Accuracy: 80.7800%, Time consumed:23.74s
+
+Epoch [33], Batch [50/391], Loss: 0.0494
+Epoch [33], Batch [100/391], Loss: 0.0237
+Epoch [33], Batch [150/391], Loss: 0.0337
+Epoch [33], Batch [200/391], Loss: 0.0290
+Epoch [33], Batch [250/391], Loss: 0.0496
+Epoch [33], Batch [300/391], Loss: 0.0580
+Epoch [33], Batch [350/391], Loss: 0.0555
+Train set: Epoch: 33, Average loss:0.0405, LR: 0.001000 Top-1 Accuracy: 98.7360%, Top-5 Accuracy: 99.9900%, Time consumed:142.04s
+Test set: Epoch: 33, Average loss:3.1515, Top-1 Accuracy: 55.2700%, Top-5 Accuracy: 81.4600%, Time consumed:24.36s
+
+New best top-1 accuracy: 55.27%, top-5 accuracy: 81.46%
+Epoch [34], Batch [50/391], Loss: 0.0238
+Epoch [34], Batch [100/391], Loss: 0.0541
+Epoch [34], Batch [150/391], Loss: 0.0132
+Epoch [34], Batch [200/391], Loss: 0.0123
+Epoch [34], Batch [250/391], Loss: 0.0254
+Epoch [34], Batch [300/391], Loss: 0.0580
+Epoch [34], Batch [350/391], Loss: 0.0376
+Train set: Epoch: 34, Average loss:0.0352, LR: 0.001000 Top-1 Accuracy: 98.8220%, Top-5 Accuracy: 99.9920%, Time consumed:142.48s
+Test set: Epoch: 34, Average loss:3.3454, Top-1 Accuracy: 54.0400%, Top-5 Accuracy: 81.0700%, Time consumed:24.87s
+
+Epoch [35], Batch [50/391], Loss: 0.0037
+Epoch [35], Batch [100/391], Loss: 0.0488
+Epoch [35], Batch [150/391], Loss: 0.0765
+Epoch [35], Batch [200/391], Loss: 0.0174
+Epoch [35], Batch [250/391], Loss: 0.0222
+Epoch [35], Batch [300/391], Loss: 0.0095
+Epoch [35], Batch [350/391], Loss: 0.0489
+Train set: Epoch: 35, Average loss:0.0401, LR: 0.001000 Top-1 Accuracy: 98.6700%, Top-5 Accuracy: 99.9920%, Time consumed:136.59s
+Test set: Epoch: 35, Average loss:3.4379, Top-1 Accuracy: 53.8000%, Top-5 Accuracy: 80.8600%, Time consumed:24.65s
+
+Epoch [36], Batch [50/391], Loss: 0.0228
+Epoch [36], Batch [100/391], Loss: 0.0061
+Epoch [36], Batch [150/391], Loss: 0.0222
+Epoch [36], Batch [200/391], Loss: 0.0731
+Epoch [36], Batch [250/391], Loss: 0.0648
+Epoch [36], Batch [300/391], Loss: 0.0256
+Epoch [36], Batch [350/391], Loss: 0.0907
+Train set: Epoch: 36, Average loss:0.0455, LR: 0.001000 Top-1 Accuracy: 98.5300%, Top-5 Accuracy: 99.9920%, Time consumed:144.43s
+Test set: Epoch: 36, Average loss:3.3768, Top-1 Accuracy: 53.9400%, Top-5 Accuracy: 80.7100%, Time consumed:24.96s
+
+Epoch [37], Batch [50/391], Loss: 0.0088
+Epoch [37], Batch [100/391], Loss: 0.0254
+Epoch [37], Batch [150/391], Loss: 0.0035
+Epoch [37], Batch [200/391], Loss: 0.0168
+Epoch [37], Batch [250/391], Loss: 0.0189
+Epoch [37], Batch [300/391], Loss: 0.1169
+Epoch [37], Batch [350/391], Loss: 0.0549
+Train set: Epoch: 37, Average loss:0.0417, LR: 0.001000 Top-1 Accuracy: 98.6380%, Top-5 Accuracy: 99.9760%, Time consumed:143.93s
+Test set: Epoch: 37, Average loss:3.2475, Top-1 Accuracy: 54.1600%, Top-5 Accuracy: 81.2300%, Time consumed:24.59s
+
+Epoch [38], Batch [50/391], Loss: 0.0324
+Epoch [38], Batch [100/391], Loss: 0.0478
+Epoch [38], Batch [150/391], Loss: 0.0088
+Epoch [38], Batch [200/391], Loss: 0.0093
+Epoch [38], Batch [250/391], Loss: 0.0207
+Epoch [38], Batch [300/391], Loss: 0.0329
+Epoch [38], Batch [350/391], Loss: 0.0359
+Train set: Epoch: 38, Average loss:0.0434, LR: 0.001000 Top-1 Accuracy: 98.5980%, Top-5 Accuracy: 99.9900%, Time consumed:136.51s
+Test set: Epoch: 38, Average loss:3.3810, Top-1 Accuracy: 54.1100%, Top-5 Accuracy: 80.8200%, Time consumed:24.84s
+
+Epoch [39], Batch [50/391], Loss: 0.0271
+Epoch [39], Batch [100/391], Loss: 0.0057
+Epoch [39], Batch [150/391], Loss: 0.0505
+Epoch [39], Batch [200/391], Loss: 0.0495
+Epoch [39], Batch [250/391], Loss: 0.0432
+Epoch [39], Batch [300/391], Loss: 0.0794
+Epoch [39], Batch [350/391], Loss: 0.0279
+Train set: Epoch: 39, Average loss:0.0328, LR: 0.001000 Top-1 Accuracy: 98.9480%, Top-5 Accuracy: 99.9860%, Time consumed:138.51s
+Test set: Epoch: 39, Average loss:3.4501, Top-1 Accuracy: 54.2000%, Top-5 Accuracy: 80.6000%, Time consumed:24.38s
+
+Epoch [40], Batch [50/391], Loss: 0.0080
+Epoch [40], Batch [100/391], Loss: 0.0190
+Epoch [40], Batch [150/391], Loss: 0.0057
+Epoch [40], Batch [200/391], Loss: 0.0633
+Epoch [40], Batch [250/391], Loss: 0.0100
+Epoch [40], Batch [300/391], Loss: 0.0157
+Epoch [40], Batch [350/391], Loss: 0.0089
+Train set: Epoch: 40, Average loss:0.0285, LR: 0.001000 Top-1 Accuracy: 99.0720%, Top-5 Accuracy: 99.9940%, Time consumed:137.84s
+Test set: Epoch: 40, Average loss:3.3767, Top-1 Accuracy: 55.0900%, Top-5 Accuracy: 81.1400%, Time consumed:25.18s
+
+Epoch [41], Batch [50/391], Loss: 0.0252
+Epoch [41], Batch [100/391], Loss: 0.0164
+Epoch [41], Batch [150/391], Loss: 0.0080
+Epoch [41], Batch [200/391], Loss: 0.0879
+Epoch [41], Batch [250/391], Loss: 0.1327
+Epoch [41], Batch [300/391], Loss: 0.0673
+Epoch [41], Batch [350/391], Loss: 0.0691
+Train set: Epoch: 41, Average loss:0.0272, LR: 0.001000 Top-1 Accuracy: 99.1480%, Top-5 Accuracy: 99.9920%, Time consumed:141.12s
+Test set: Epoch: 41, Average loss:3.5685, Top-1 Accuracy: 53.7500%, Top-5 Accuracy: 80.2100%, Time consumed:24.73s
+
+Epoch [42], Batch [50/391], Loss: 0.1192
+Epoch [42], Batch [100/391], Loss: 0.0798
+Epoch [42], Batch [150/391], Loss: 0.1075
+Epoch [42], Batch [200/391], Loss: 0.0631
+Epoch [42], Batch [250/391], Loss: 0.0802
+Epoch [42], Batch [300/391], Loss: 0.0511
+Epoch [42], Batch [350/391], Loss: 0.0221
+Train set: Epoch: 42, Average loss:0.0510, LR: 0.001000 Top-1 Accuracy: 98.3940%, Top-5 Accuracy: 99.9800%, Time consumed:137.44s
+Test set: Epoch: 42, Average loss:3.6023, Top-1 Accuracy: 52.9700%, Top-5 Accuracy: 80.2500%, Time consumed:24.54s
+
+Epoch [43], Batch [50/391], Loss: 0.0562
+Epoch [43], Batch [100/391], Loss: 0.0689
+Epoch [43], Batch [150/391], Loss: 0.0849
+Epoch [43], Batch [200/391], Loss: 0.0133
+Epoch [43], Batch [250/391], Loss: 0.0113
+Epoch [43], Batch [300/391], Loss: 0.0548
+Epoch [43], Batch [350/391], Loss: 0.0951
+Train set: Epoch: 43, Average loss:0.0329, LR: 0.001000 Top-1 Accuracy: 98.9760%, Top-5 Accuracy: 99.9880%, Time consumed:138.48s
+Test set: Epoch: 43, Average loss:3.3645, Top-1 Accuracy: 54.2700%, Top-5 Accuracy: 81.2300%, Time consumed:24.53s
+
+Epoch [44], Batch [50/391], Loss: 0.0191
+Epoch [44], Batch [100/391], Loss: 0.0248
+Epoch [44], Batch [150/391], Loss: 0.0250
+Epoch [44], Batch [200/391], Loss: 0.1170
+Epoch [44], Batch [250/391], Loss: 0.0158
+Epoch [44], Batch [300/391], Loss: 0.0031
+Epoch [44], Batch [350/391], Loss: 0.0258
+Train set: Epoch: 44, Average loss:0.0311, LR: 0.001000 Top-1 Accuracy: 99.0720%, Top-5 Accuracy: 99.9840%, Time consumed:140.01s
+Test set: Epoch: 44, Average loss:3.4428, Top-1 Accuracy: 54.5200%, Top-5 Accuracy: 81.2200%, Time consumed:25.39s
+
+Epoch [45], Batch [50/391], Loss: 0.0024
+Epoch [45], Batch [100/391], Loss: 0.0286
+Epoch [45], Batch [150/391], Loss: 0.0062
+Epoch [45], Batch [200/391], Loss: 0.0713
+Epoch [45], Batch [250/391], Loss: 0.0042
+Epoch [45], Batch [300/391], Loss: 0.0204
+Epoch [45], Batch [350/391], Loss: 0.0277
+Train set: Epoch: 45, Average loss:0.0297, LR: 0.001000 Top-1 Accuracy: 99.0320%, Top-5 Accuracy: 99.9920%, Time consumed:137.79s
+Test set: Epoch: 45, Average loss:3.4415, Top-1 Accuracy: 53.8700%, Top-5 Accuracy: 81.2100%, Time consumed:24.30s
+
+Epoch [46], Batch [50/391], Loss: 0.0445
+Epoch [46], Batch [100/391], Loss: 0.0042
+Epoch [46], Batch [150/391], Loss: 0.0167
+Epoch [46], Batch [200/391], Loss: 0.0394
+Epoch [46], Batch [250/391], Loss: 0.0297
+Epoch [46], Batch [300/391], Loss: 0.0691
+Epoch [46], Batch [350/391], Loss: 0.0486
+Train set: Epoch: 46, Average loss:0.0314, LR: 0.001000 Top-1 Accuracy: 98.9940%, Top-5 Accuracy: 99.9920%, Time consumed:139.91s
+Test set: Epoch: 46, Average loss:3.5407, Top-1 Accuracy: 53.8600%, Top-5 Accuracy: 80.9800%, Time consumed:25.17s
+
+Epoch [47], Batch [50/391], Loss: 0.0413
+Epoch [47], Batch [100/391], Loss: 0.0028
+Epoch [47], Batch [150/391], Loss: 0.0174
+Epoch [47], Batch [200/391], Loss: 0.0757
+Epoch [47], Batch [250/391], Loss: 0.0374
+Epoch [47], Batch [300/391], Loss: 0.1596
+Epoch [47], Batch [350/391], Loss: 0.0231
+Train set: Epoch: 47, Average loss:0.0411, LR: 0.001000 Top-1 Accuracy: 98.6860%, Top-5 Accuracy: 99.9840%, Time consumed:137.18s
+Test set: Epoch: 47, Average loss:3.5311, Top-1 Accuracy: 54.0500%, Top-5 Accuracy: 80.5300%, Time consumed:24.94s
+
+Epoch [48], Batch [50/391], Loss: 0.0433
+Epoch [48], Batch [100/391], Loss: 0.0190
+Epoch [48], Batch [150/391], Loss: 0.0094
+Epoch [48], Batch [200/391], Loss: 0.0266
+Epoch [48], Batch [250/391], Loss: 0.0358
+Epoch [48], Batch [300/391], Loss: 0.0251
+Epoch [48], Batch [350/391], Loss: 0.0137
+Train set: Epoch: 48, Average loss:0.0356, LR: 0.001000 Top-1 Accuracy: 98.8540%, Top-5 Accuracy: 99.9880%, Time consumed:136.27s
+Test set: Epoch: 48, Average loss:3.5872, Top-1 Accuracy: 52.5500%, Top-5 Accuracy: 80.1300%, Time consumed:25.29s
+
+Epoch [49], Batch [50/391], Loss: 0.0704
+Epoch [49], Batch [100/391], Loss: 0.0062
+Epoch [49], Batch [150/391], Loss: 0.0450
+Epoch [49], Batch [200/391], Loss: 0.0130
+Epoch [49], Batch [250/391], Loss: 0.0537
+Epoch [49], Batch [300/391], Loss: 0.0273
+Epoch [49], Batch [350/391], Loss: 0.0146
+Train set: Epoch: 49, Average loss:0.0353, LR: 0.001000 Top-1 Accuracy: 98.8500%, Top-5 Accuracy: 99.9960%, Time consumed:136.36s
+Test set: Epoch: 49, Average loss:3.5514, Top-1 Accuracy: 54.5500%, Top-5 Accuracy: 80.9200%, Time consumed:24.98s
+
+Epoch [50], Batch [50/391], Loss: 0.0389
+Epoch [50], Batch [100/391], Loss: 0.0020
+Epoch [50], Batch [150/391], Loss: 0.0084
+Epoch [50], Batch [200/391], Loss: 0.0024
+Epoch [50], Batch [250/391], Loss: 0.0068
+Epoch [50], Batch [300/391], Loss: 0.0174
+Epoch [50], Batch [350/391], Loss: 0.0126
+Train set: Epoch: 50, Average loss:0.0194, LR: 0.001000 Top-1 Accuracy: 99.3760%, Top-5 Accuracy: 99.9860%, Time consumed:146.03s
+Test set: Epoch: 50, Average loss:3.4323, Top-1 Accuracy: 55.1300%, Top-5 Accuracy: 81.5700%, Time consumed:24.56s
+
+Epoch [51], Batch [50/391], Loss: 0.0102
+Epoch [51], Batch [100/391], Loss: 0.0314
+Epoch [51], Batch [150/391], Loss: 0.0056
+Epoch [51], Batch [200/391], Loss: 0.0028
+Epoch [51], Batch [250/391], Loss: 0.0031
+Epoch [51], Batch [300/391], Loss: 0.0113
+Epoch [51], Batch [350/391], Loss: 0.0188
+Train set: Epoch: 51, Average loss:0.0113, LR: 0.001000 Top-1 Accuracy: 99.7080%, Top-5 Accuracy: 99.9980%, Time consumed:142.28s
+Test set: Epoch: 51, Average loss:3.4084, Top-1 Accuracy: 55.5600%, Top-5 Accuracy: 81.6100%, Time consumed:24.50s
+
+New best top-1 accuracy: 55.56%, top-5 accuracy: 81.61%
+Epoch [52], Batch [50/391], Loss: 0.0271
+Epoch [52], Batch [100/391], Loss: 0.0065
+Epoch [52], Batch [150/391], Loss: 0.0255
+Epoch [52], Batch [200/391], Loss: 0.0041
+Epoch [52], Batch [250/391], Loss: 0.0108
+Epoch [52], Batch [300/391], Loss: 0.0068
+Epoch [52], Batch [350/391], Loss: 0.0254
+Train set: Epoch: 52, Average loss:0.0261, LR: 0.001000 Top-1 Accuracy: 99.1480%, Top-5 Accuracy: 99.9980%, Time consumed:137.20s
+Test set: Epoch: 52, Average loss:3.7377, Top-1 Accuracy: 53.9200%, Top-5 Accuracy: 80.1800%, Time consumed:24.49s
+
+Epoch [53], Batch [50/391], Loss: 0.0470
+Epoch [53], Batch [100/391], Loss: 0.0424
+Epoch [53], Batch [150/391], Loss: 0.0403
+Epoch [53], Batch [200/391], Loss: 0.0667
+Epoch [53], Batch [250/391], Loss: 0.0463
+Epoch [53], Batch [300/391], Loss: 0.0674
+Epoch [53], Batch [350/391], Loss: 0.0673
+Train set: Epoch: 53, Average loss:0.0420, LR: 0.001000 Top-1 Accuracy: 98.6160%, Top-5 Accuracy: 99.9900%, Time consumed:141.20s
+Test set: Epoch: 53, Average loss:3.6050, Top-1 Accuracy: 53.8000%, Top-5 Accuracy: 80.9900%, Time consumed:25.27s
+
+Epoch [54], Batch [50/391], Loss: 0.0053
+Epoch [54], Batch [100/391], Loss: 0.0416
+Epoch [54], Batch [150/391], Loss: 0.0330
+Epoch [54], Batch [200/391], Loss: 0.0782
+Epoch [54], Batch [250/391], Loss: 0.1430
+Epoch [54], Batch [300/391], Loss: 0.0117
+Epoch [54], Batch [350/391], Loss: 0.0466
+Train set: Epoch: 54, Average loss:0.0398, LR: 0.001000 Top-1 Accuracy: 98.6840%, Top-5 Accuracy: 99.9760%, Time consumed:136.45s
+Test set: Epoch: 54, Average loss:3.5348, Top-1 Accuracy: 54.6100%, Top-5 Accuracy: 81.1100%, Time consumed:24.82s
+
+Epoch [55], Batch [50/391], Loss: 0.0780
+Epoch [55], Batch [100/391], Loss: 0.0453
+Epoch [55], Batch [150/391], Loss: 0.0289
+Epoch [55], Batch [200/391], Loss: 0.0594
+Epoch [55], Batch [250/391], Loss: 0.0248
+Epoch [55], Batch [300/391], Loss: 0.0739
+Epoch [55], Batch [350/391], Loss: 0.0165
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

@@ -5,3 +5,14 @@
 {"time":"2025-04-11T16:01:30.220331706Z","level":"INFO","msg":"sender: started","stream_id":"1bhbdsep"}
 {"time":"2025-04-11T16:01:30.220356816Z","level":"INFO","msg":"writer: Do: started","stream_id":"1bhbdsep"}
 {"time":"2025-04-11T16:01:30.575358293Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-11T18:30:50.44945335Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-11T18:31:54.595762537Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-11T18:31:54.637344796Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-11T18:31:54.63742099Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-11T18:31:55.620600747Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.481994365,"progress":"29.8KB/29.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.481975872,"progress":"102.9KB/102.9KB"},{"desc":"uploading config.yaml","runtime_seconds":0.239979679,"progress":"756B/756B"},{"desc":"uploading best_model_resnet18-cutmix.pth","runtime_seconds":0.065345554,"progress":"1.1MB/42.9MB"}],"total_operations":4}}
+{"time":"2025-04-11T18:31:58.466311513Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-11T18:31:58.780948444Z","level":"INFO","msg":"stream: closing","id":"1bhbdsep"}
+{"time":"2025-04-11T18:31:58.780973573Z","level":"INFO","msg":"handler: closed","stream_id":"1bhbdsep"}
+{"time":"2025-04-11T18:31:58.78098656Z","level":"INFO","msg":"writer: Close: closed","stream_id":"1bhbdsep"}
+{"time":"2025-04-11T18:31:58.781048953Z","level":"INFO","msg":"sender: closed","stream_id":"1bhbdsep"}
+{"time":"2025-04-11T18:31:58.78111711Z","level":"INFO","msg":"stream: closed","id":"1bhbdsep"}

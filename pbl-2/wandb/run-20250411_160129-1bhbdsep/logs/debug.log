@@ -20,3 +20,16 @@ config: {'_wandb': {}}
 2025-04-11 16:01:30,800 INFO    MainThread:2940751 [wandb_init.py:init():1056] run started, returning control to user process
 2025-04-11 16:01:30,802 INFO    MainThread:2940751 [wandb_run.py:_config_callback():1327] config_cb None None {'model': 'resnet18', 'batch_size': 128, 'num_epochs': 100, 'learning_rate': 0.001, 'optimizer': 'Adam', 'seed': 2025, 'deterministic': False}
 2025-04-11 16:01:33,549 INFO    MainThread:2940751 [wandb_watch.py:_watch():71] Watching
+2025-04-11 18:30:50,448 INFO    MainThread:2940751 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-11 18:30:50,448 INFO    MainThread:2940751 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-11 18:31:54,595 INFO    MainThread:2940751 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-11 18:31:54,615 INFO    MainThread:2940751 [wandb_run.py:_finish():2189] finishing run sokjh1310-hanyang-university/PBL-2/1bhbdsep
+2025-04-11 18:31:54,615 INFO    MainThread:2940751 [jupyter.py:save_history():460] not saving jupyter history
+2025-04-11 18:31:54,615 INFO    MainThread:2940751 [jupyter.py:save_ipynb():384] not saving jupyter notebook
+2025-04-11 18:31:54,616 INFO    MainThread:2940751 [wandb_init.py:_jupyter_teardown():563] cleaning up jupyter logic
+2025-04-11 18:31:54,616 INFO    MainThread:2940751 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-11 18:31:54,616 INFO    MainThread:2940751 [wandb_run.py:_restore():2401] restore
+2025-04-11 18:31:54,616 INFO    MainThread:2940751 [wandb_run.py:_restore():2407] restore done
+2025-04-11 18:31:58,774 INFO    MainThread:2940751 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-11 18:31:58,776 INFO    MainThread:2940751 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-11 18:31:58,777 INFO    MainThread:2940751 [wandb_run.py:_footer_sync_info():4025] logging synced files
