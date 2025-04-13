@@ -1,0 +1,291 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Train set size: 40000
+Validation set size: 5000
+Test set size: 5000
+Using device: cuda
+2개의 GPU를 사용합니다.
+  2%|█▊                                                                                           | 2/100 [01:25<1:09:22, 42.48s/it]
+Epoch [1], Batch [50/313], Loss: 4.1063
+Epoch [1], Batch [100/313], Loss: 4.0174
+Epoch [1], Batch [150/313], Loss: 3.7361
+Epoch [1], Batch [200/313], Loss: 3.9623
+Epoch [1], Batch [250/313], Loss: 3.4484
+Epoch [1], Batch [300/313], Loss: 4.2066
+Train set: Epoch: 1, Average loss:4.0147, LR: 0.001000 Top-1 Accuracy: 9.4900%, Top-5 Accuracy: 28.9800%, Time consumed:38.73s
+Val set: Epoch: 1, Average loss:3.5829, Top-1 Accuracy: 13.7800%, Top-5 Accuracy: 39.5800%, Time consumed:4.42s
+
+New best top-1 accuracy: 13.78%, top-5 accuracy: 39.58%
+New best top-5 accuracy: 39.58%
+Validation loss decreased (inf --> 3.582931). Saving model ...
+Epoch [2], Batch [50/313], Loss: 4.3247
+Epoch [2], Batch [100/313], Loss: 3.0742
+Epoch [2], Batch [150/313], Loss: 4.0784
+Epoch [2], Batch [200/313], Loss: 4.0387
+Epoch [2], Batch [250/313], Loss: 3.9220
+Epoch [2], Batch [300/313], Loss: 4.1254
+Train set: Epoch: 2, Average loss:3.4348, LR: 0.001000 Top-1 Accuracy: 19.9675%, Top-5 Accuracy: 47.8400%, Time consumed:37.12s
+Val set: Epoch: 2, Average loss:2.7454, Top-1 Accuracy: 28.4800%, Top-5 Accuracy: 61.0000%, Time consumed:4.49s
+
+New best top-1 accuracy: 28.48%, top-5 accuracy: 61.00%
+New best top-5 accuracy: 61.00%
+Validation loss decreased (3.582931 --> 2.745432). Saving model ...
+Epoch [3], Batch [50/313], Loss: 2.7739
+Epoch [3], Batch [100/313], Loss: 4.0987
+Epoch [3], Batch [150/313], Loss: 3.8484
+Epoch [3], Batch [200/313], Loss: 2.4346
+Epoch [3], Batch [250/313], Loss: 3.4548
+Epoch [3], Batch [300/313], Loss: 2.3711
+Train set: Epoch: 3, Average loss:3.0284, LR: 0.001000 Top-1 Accuracy: 28.9675%, Top-5 Accuracy: 59.7625%, Time consumed:39.24s
+Val set: Epoch: 3, Average loss:2.6246, Top-1 Accuracy: 31.8200%, Top-5 Accuracy: 65.0400%, Time consumed:4.91s
+
+New best top-1 accuracy: 31.82%, top-5 accuracy: 65.04%
+New best top-5 accuracy: 65.04%
+Validation loss decreased (2.745432 --> 2.624639). Saving model ...
+Epoch [4], Batch [50/313], Loss: 3.6297
+Epoch [4], Batch [100/313], Loss: 2.1832
+Epoch [4], Batch [150/313], Loss: 2.2232
+Epoch [4], Batch [200/313], Loss: 4.0074
+Epoch [4], Batch [250/313], Loss: 2.5438
+Epoch [4], Batch [300/313], Loss: 3.5922
+Train set: Epoch: 4, Average loss:2.7848, LR: 0.001000 Top-1 Accuracy: 35.0975%, Top-5 Accuracy: 65.8300%, Time consumed:40.07s
+Val set: Epoch: 4, Average loss:2.2976, Top-1 Accuracy: 39.7000%, Top-5 Accuracy: 71.7000%, Time consumed:4.95s
+
+New best top-1 accuracy: 39.70%, top-5 accuracy: 71.70%
+New best top-5 accuracy: 71.70%
+Validation loss decreased (2.624639 --> 2.297627). Saving model ...
+Epoch [5], Batch [50/313], Loss: 3.6288
+Epoch [5], Batch [100/313], Loss: 2.9908
+Epoch [5], Batch [150/313], Loss: 3.4048
+Epoch [5], Batch [200/313], Loss: 2.0017
+Epoch [5], Batch [250/313], Loss: 1.6664
+Epoch [5], Batch [300/313], Loss: 3.0194
+Train set: Epoch: 5, Average loss:2.5664, LR: 0.001000 Top-1 Accuracy: 40.5075%, Top-5 Accuracy: 71.1825%, Time consumed:38.96s
+Val set: Epoch: 5, Average loss:2.0400, Top-1 Accuracy: 45.5400%, Top-5 Accuracy: 76.8800%, Time consumed:4.91s
+
+New best top-1 accuracy: 45.54%, top-5 accuracy: 76.88%
+New best top-5 accuracy: 76.88%
+Validation loss decreased (2.297627 --> 2.040017). Saving model ...
+Epoch [6], Batch [50/313], Loss: 1.7060
+Epoch [6], Batch [100/313], Loss: 1.8482
+Epoch [6], Batch [150/313], Loss: 1.9012
+Epoch [6], Batch [200/313], Loss: 2.0130
+Epoch [6], Batch [250/313], Loss: 3.6180
+Epoch [6], Batch [300/313], Loss: 1.7218
+Train set: Epoch: 6, Average loss:2.4082, LR: 0.001000 Top-1 Accuracy: 43.5250%, Top-5 Accuracy: 73.5425%, Time consumed:41.44s
+Val set: Epoch: 6, Average loss:1.8709, Top-1 Accuracy: 49.6200%, Top-5 Accuracy: 80.1600%, Time consumed:4.87s
+
+New best top-1 accuracy: 49.62%, top-5 accuracy: 80.16%
+New best top-5 accuracy: 80.16%
+Validation loss decreased (2.040017 --> 1.870878). Saving model ...
+Epoch [7], Batch [50/313], Loss: 3.0954
+Epoch [7], Batch [100/313], Loss: 1.6126
+Epoch [7], Batch [150/313], Loss: 3.2703
+Epoch [7], Batch [200/313], Loss: 3.6132
+Epoch [7], Batch [250/313], Loss: 1.3973
+Epoch [7], Batch [300/313], Loss: 2.7603
+Train set: Epoch: 7, Average loss:2.3405, LR: 0.001000 Top-1 Accuracy: 47.1825%, Top-5 Accuracy: 76.4700%, Time consumed:39.39s
+Val set: Epoch: 7, Average loss:1.8449, Top-1 Accuracy: 50.9400%, Top-5 Accuracy: 80.8400%, Time consumed:5.24s
+
+New best top-1 accuracy: 50.94%, top-5 accuracy: 80.84%
+New best top-5 accuracy: 80.84%
+Validation loss decreased (1.870878 --> 1.844943). Saving model ...
+Epoch [8], Batch [50/313], Loss: 1.8348
+Epoch [8], Batch [100/313], Loss: 3.2642
+Epoch [8], Batch [150/313], Loss: 2.2593
+Epoch [8], Batch [200/313], Loss: 1.3345
+Epoch [8], Batch [250/313], Loss: 2.4002
+Epoch [8], Batch [300/313], Loss: 1.3293
+Train set: Epoch: 8, Average loss:2.1341, LR: 0.001000 Top-1 Accuracy: 51.8725%, Top-5 Accuracy: 79.9350%, Time consumed:38.89s
+Val set: Epoch: 8, Average loss:1.6160, Top-1 Accuracy: 56.1800%, Top-5 Accuracy: 84.5200%, Time consumed:4.82s
+
+New best top-1 accuracy: 56.18%, top-5 accuracy: 84.52%
+New best top-5 accuracy: 84.52%
+Validation loss decreased (1.844943 --> 1.616027). Saving model ...
+Epoch [9], Batch [50/313], Loss: 1.3715
+Epoch [9], Batch [100/313], Loss: 0.9351
+Epoch [9], Batch [150/313], Loss: 1.2889
+Epoch [9], Batch [200/313], Loss: 1.2279
+Epoch [9], Batch [250/313], Loss: 3.5772
+Epoch [9], Batch [300/313], Loss: 2.9425
+Train set: Epoch: 9, Average loss:2.0252, LR: 0.001000 Top-1 Accuracy: 54.1175%, Top-5 Accuracy: 80.8775%, Time consumed:38.87s
+Val set: Epoch: 9, Average loss:1.6059, Top-1 Accuracy: 55.5200%, Top-5 Accuracy: 84.5200%, Time consumed:4.83s
+
+Validation loss decreased (1.616027 --> 1.605919). Saving model ...
+Epoch [10], Batch [50/313], Loss: 1.1718
+Epoch [10], Batch [100/313], Loss: 2.6991
+Epoch [10], Batch [150/313], Loss: 1.1650
+Epoch [10], Batch [200/313], Loss: 0.9993
+Epoch [10], Batch [250/313], Loss: 0.9819
+Epoch [10], Batch [300/313], Loss: 1.2751
+Train set: Epoch: 10, Average loss:1.8359, LR: 0.001000 Top-1 Accuracy: 59.5775%, Top-5 Accuracy: 84.8975%, Time consumed:38.76s
+Val set: Epoch: 10, Average loss:1.5582, Top-1 Accuracy: 57.2600%, Top-5 Accuracy: 85.5200%, Time consumed:4.86s
+
+New best top-1 accuracy: 57.26%, top-5 accuracy: 85.52%
+New best top-5 accuracy: 85.52%
+Validation loss decreased (1.605919 --> 1.558218). Saving model ...
+Epoch [11], Batch [50/313], Loss: 1.0114
+Epoch [11], Batch [100/313], Loss: 3.0600
+Epoch [11], Batch [150/313], Loss: 1.1113
+Epoch [11], Batch [200/313], Loss: 1.0413
+Epoch [11], Batch [250/313], Loss: 1.0316
+Epoch [11], Batch [300/313], Loss: 2.4228
+Train set: Epoch: 11, Average loss:1.7513, LR: 0.001000 Top-1 Accuracy: 62.1700%, Top-5 Accuracy: 86.5975%, Time consumed:39.53s
+Val set: Epoch: 11, Average loss:1.6052, Top-1 Accuracy: 56.0600%, Top-5 Accuracy: 84.1400%, Time consumed:4.77s
+
+EarlyStopping 카운터: 1 / 10
+Epoch [12], Batch [50/313], Loss: 2.0131
+Epoch [12], Batch [100/313], Loss: 1.9560
+Epoch [12], Batch [150/313], Loss: 3.2636
+Epoch [12], Batch [200/313], Loss: 1.0097
+Epoch [12], Batch [250/313], Loss: 0.6208
+Epoch [12], Batch [300/313], Loss: 0.8656
+Train set: Epoch: 12, Average loss:1.6631, LR: 0.001000 Top-1 Accuracy: 65.0600%, Top-5 Accuracy: 87.8375%, Time consumed:39.95s
+Val set: Epoch: 12, Average loss:1.5331, Top-1 Accuracy: 58.1000%, Top-5 Accuracy: 86.1800%, Time consumed:4.88s
+
+New best top-1 accuracy: 58.10%, top-5 accuracy: 86.18%
+New best top-5 accuracy: 86.18%
+Validation loss decreased (1.558218 --> 1.533124). Saving model ...
+Epoch [13], Batch [50/313], Loss: 1.6059
+Epoch [13], Batch [100/313], Loss: 3.1278
+Epoch [13], Batch [150/313], Loss: 1.6520
+Epoch [13], Batch [200/313], Loss: 1.7702
+Epoch [13], Batch [250/313], Loss: 1.5923
+Epoch [13], Batch [300/313], Loss: 0.6529
+Train set: Epoch: 13, Average loss:1.7279, LR: 0.001000 Top-1 Accuracy: 64.3625%, Top-5 Accuracy: 87.2850%, Time consumed:38.17s
+Val set: Epoch: 13, Average loss:1.4508, Top-1 Accuracy: 60.6600%, Top-5 Accuracy: 86.7600%, Time consumed:5.14s
+
+New best top-1 accuracy: 60.66%, top-5 accuracy: 86.76%
+New best top-5 accuracy: 86.76%
+Validation loss decreased (1.533124 --> 1.450814). Saving model ...
+Epoch [14], Batch [50/313], Loss: 3.1650
+Epoch [14], Batch [100/313], Loss: 0.9460
+Epoch [14], Batch [150/313], Loss: 0.6072
+Epoch [14], Batch [200/313], Loss: 0.5138
+Epoch [14], Batch [250/313], Loss: 2.5388
+Epoch [14], Batch [300/313], Loss: 0.7680
+Train set: Epoch: 14, Average loss:1.5355, LR: 0.001000 Top-1 Accuracy: 68.2300%, Top-5 Accuracy: 88.6500%, Time consumed:38.77s
+Val set: Epoch: 14, Average loss:1.5129, Top-1 Accuracy: 60.3600%, Top-5 Accuracy: 85.8000%, Time consumed:4.63s
+
+EarlyStopping 카운터: 1 / 10
+Epoch [15], Batch [50/313], Loss: 2.8411
+Epoch [15], Batch [100/313], Loss: 1.1353
+Epoch [15], Batch [150/313], Loss: 0.4348
+Epoch [15], Batch [200/313], Loss: 2.5301
+Epoch [15], Batch [250/313], Loss: 0.5535
+Epoch [15], Batch [300/313], Loss: 2.9318
+Train set: Epoch: 15, Average loss:1.4327, LR: 0.001000 Top-1 Accuracy: 72.2275%, Top-5 Accuracy: 91.0150%, Time consumed:39.59s
+Val set: Epoch: 15, Average loss:1.4053, Top-1 Accuracy: 61.1200%, Top-5 Accuracy: 87.8000%, Time consumed:4.97s
+
+New best top-1 accuracy: 61.12%, top-5 accuracy: 87.80%
+New best top-5 accuracy: 87.80%
+Validation loss decreased (1.450814 --> 1.405282). Saving model ...
+Epoch [16], Batch [50/313], Loss: 0.3682
+Epoch [16], Batch [100/313], Loss: 2.6680
+Epoch [16], Batch [150/313], Loss: 2.3585
+Epoch [16], Batch [200/313], Loss: 2.7712
+Epoch [16], Batch [250/313], Loss: 0.4261
+Epoch [16], Batch [300/313], Loss: 2.8475
+Train set: Epoch: 16, Average loss:1.4375, LR: 0.001000 Top-1 Accuracy: 73.1625%, Top-5 Accuracy: 91.0125%, Time consumed:41.35s
+Val set: Epoch: 16, Average loss:1.4126, Top-1 Accuracy: 62.0000%, Top-5 Accuracy: 87.2400%, Time consumed:4.76s
+
+New best top-1 accuracy: 62.00%, top-5 accuracy: 87.24%
+EarlyStopping 카운터: 1 / 10
+Epoch [17], Batch [50/313], Loss: 0.3765
+Epoch [17], Batch [100/313], Loss: 0.4438
+Epoch [17], Batch [150/313], Loss: 0.4310
+Epoch [17], Batch [200/313], Loss: 0.3496
+Epoch [17], Batch [250/313], Loss: 0.4913
+Epoch [17], Batch [300/313], Loss: 0.4471
+Train set: Epoch: 17, Average loss:1.3209, LR: 0.001000 Top-1 Accuracy: 75.3475%, Top-5 Accuracy: 91.0200%, Time consumed:38.62s
+Val set: Epoch: 17, Average loss:1.4467, Top-1 Accuracy: 61.9400%, Top-5 Accuracy: 86.4000%, Time consumed:5.11s
+
+EarlyStopping 카운터: 2 / 10
+Epoch [18], Batch [50/313], Loss: 2.9908
+Epoch [18], Batch [100/313], Loss: 2.5674
+Epoch [18], Batch [150/313], Loss: 2.9298
+Epoch [18], Batch [200/313], Loss: 0.3321
+Epoch [18], Batch [250/313], Loss: 3.1753
+Epoch [18], Batch [300/313], Loss: 0.4172
+Train set: Epoch: 18, Average loss:1.3899, LR: 0.001000 Top-1 Accuracy: 74.2450%, Top-5 Accuracy: 91.0125%, Time consumed:38.40s
+Val set: Epoch: 18, Average loss:1.4178, Top-1 Accuracy: 62.7200%, Top-5 Accuracy: 87.5800%, Time consumed:4.73s
+
+New best top-1 accuracy: 62.72%, top-5 accuracy: 87.58%
+EarlyStopping 카운터: 3 / 10
+Epoch [19], Batch [50/313], Loss: 0.3420
+Epoch [19], Batch [100/313], Loss: 0.2586
+Epoch [19], Batch [150/313], Loss: 1.3814
+Epoch [19], Batch [200/313], Loss: 0.2950
+Epoch [19], Batch [250/313], Loss: 0.3465
+Epoch [19], Batch [300/313], Loss: 2.8744
+Train set: Epoch: 19, Average loss:1.3302, LR: 0.001000 Top-1 Accuracy: 77.1225%, Top-5 Accuracy: 92.2000%, Time consumed:39.59s
+Val set: Epoch: 19, Average loss:1.5090, Top-1 Accuracy: 60.8600%, Top-5 Accuracy: 86.3600%, Time consumed:4.67s
+
+EarlyStopping 카운터: 4 / 10
+Epoch [20], Batch [50/313], Loss: 2.4369
+Epoch [20], Batch [100/313], Loss: 1.4266
+Epoch [20], Batch [150/313], Loss: 2.9389
+Epoch [20], Batch [200/313], Loss: 2.4595
+Epoch [20], Batch [250/313], Loss: 0.1765
+Epoch [20], Batch [300/313], Loss: 1.1663
+Train set: Epoch: 20, Average loss:1.1738, LR: 0.001000 Top-1 Accuracy: 81.3000%, Top-5 Accuracy: 94.2950%, Time consumed:38.91s
+Val set: Epoch: 20, Average loss:1.4604, Top-1 Accuracy: 61.9200%, Top-5 Accuracy: 86.5800%, Time consumed:4.79s
+
+EarlyStopping 카운터: 5 / 10
+Epoch [21], Batch [50/313], Loss: 0.2155
+Epoch [21], Batch [100/313], Loss: 0.1157
+Epoch [21], Batch [150/313], Loss: 1.6592
+Epoch [21], Batch [200/313], Loss: 0.2540
+Epoch [21], Batch [250/313], Loss: 0.2187
+Epoch [21], Batch [300/313], Loss: 0.2118
+Train set: Epoch: 21, Average loss:1.2035, LR: 0.001000 Top-1 Accuracy: 80.2500%, Top-5 Accuracy: 93.3675%, Time consumed:37.97s
+Val set: Epoch: 21, Average loss:1.4766, Top-1 Accuracy: 61.6600%, Top-5 Accuracy: 86.2800%, Time consumed:4.60s
+
+EarlyStopping 카운터: 6 / 10
+Epoch [22], Batch [50/313], Loss: 2.1471
+Epoch [22], Batch [100/313], Loss: 0.1810
+Epoch [22], Batch [150/313], Loss: 0.1287
+Epoch [22], Batch [200/313], Loss: 2.6588
+Epoch [22], Batch [250/313], Loss: 2.4978
+Epoch [22], Batch [300/313], Loss: 2.6249
+Train set: Epoch: 22, Average loss:1.1372, LR: 0.001000 Top-1 Accuracy: 81.1300%, Top-5 Accuracy: 93.6250%, Time consumed:38.44s
+Val set: Epoch: 22, Average loss:1.4733, Top-1 Accuracy: 61.4200%, Top-5 Accuracy: 86.5200%, Time consumed:5.21s
+
+EarlyStopping 카운터: 7 / 10
+Epoch [23], Batch [50/313], Loss: 0.1167
+Epoch [23], Batch [100/313], Loss: 3.0907
+Epoch [23], Batch [150/313], Loss: 0.1254
+Epoch [23], Batch [200/313], Loss: 1.5300
+Epoch [23], Batch [250/313], Loss: 1.0627
+Epoch [23], Batch [300/313], Loss: 2.3783
+Train set: Epoch: 23, Average loss:1.1479, LR: 0.001000 Top-1 Accuracy: 83.3750%, Top-5 Accuracy: 94.9475%, Time consumed:38.08s
+Val set: Epoch: 23, Average loss:1.4794, Top-1 Accuracy: 61.9600%, Top-5 Accuracy: 86.4800%, Time consumed:4.73s
+
+EarlyStopping 카운터: 8 / 10
+Epoch [24], Batch [50/313], Loss: 0.1095
+Epoch [24], Batch [100/313], Loss: 0.1184
+Epoch [24], Batch [150/313], Loss: 3.2137
+Epoch [24], Batch [200/313], Loss: 0.1758
+Epoch [24], Batch [250/313], Loss: 0.2048
+Epoch [24], Batch [300/313], Loss: 0.1454
+Train set: Epoch: 24, Average loss:1.1364, LR: 0.001000 Top-1 Accuracy: 82.0250%, Top-5 Accuracy: 94.2625%, Time consumed:38.61s
+Val set: Epoch: 24, Average loss:1.4784, Top-1 Accuracy: 62.5400%, Top-5 Accuracy: 85.4800%, Time consumed:4.84s
+
+EarlyStopping 카운터: 9 / 10
+Epoch [25], Batch [50/313], Loss: 0.0812
+Epoch [25], Batch [100/313], Loss: 2.0912
+Epoch [25], Batch [150/313], Loss: 2.7426
+Epoch [25], Batch [200/313], Loss: 0.1393
+Epoch [25], Batch [250/313], Loss: 1.6891
+Epoch [25], Batch [300/313], Loss: 0.1409
+Train set: Epoch: 25, Average loss:1.0345, LR: 0.001000 Top-1 Accuracy: 83.3400%, Top-5 Accuracy: 94.1300%, Time consumed:41.19s
+Val set: Epoch: 25, Average loss:1.4789, Top-1 Accuracy: 62.5200%, Top-5 Accuracy: 86.0400%, Time consumed:5.14s
+
+EarlyStopping 카운터: 10 / 10
+Early stopping triggered. Training stopped.
+Loading best model from early stopping checkpoint...
+Test set: Epoch: 100, Average loss:1.4649, Top-1 Accuracy: 63.0000%, Top-5 Accuracy: 86.6200%, Time consumed:4.64s
+
+Finish! Best validation top-1 accuracy: 62.72%, Best validation top-5 accuracy: 87.80%
+Final test top-1 accuracy: 63.00%, Final test top-5 accuracy: 86.62%
+Total training time: 1108.09 seconds

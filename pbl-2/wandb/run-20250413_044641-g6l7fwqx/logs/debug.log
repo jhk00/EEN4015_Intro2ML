@@ -1,0 +1,26 @@
+2025-04-13 04:46:41,966 INFO    MainThread:4174855 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_044641-g6l7fwqx/logs/debug.log
+2025-04-13 04:46:41,967 INFO    MainThread:4174855 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_044641-g6l7fwqx/logs/debug-internal.log
+2025-04-13 04:46:41,967 INFO    MainThread:4174855 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f1124472890>
+2025-04-13 04:46:41,967 INFO    MainThread:4174855 [wandb_init.py:init():781] calling init triggers
+2025-04-13 04:46:41,967 INFO    MainThread:4174855 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-13 04:46:41,967 INFO    MainThread:4174855 [wandb_init.py:init():798] finishing previous run: 2qe7ln0o
+2025-04-13 04:46:47,526 INFO    MainThread:4174855 [wandb_init.py:init():809] starting backend
+2025-04-13 04:46:47,526 INFO    MainThread:4174855 [wandb_init.py:init():813] sending inform_init request
+2025-04-13 04:46:47,527 INFO    MainThread:4174855 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-13 04:46:47,527 INFO    MainThread:4174855 [wandb_init.py:init():823] backend started and connected
+2025-04-13 04:46:47,536 INFO    MainThread:4174855 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-13 04:46:47,537 INFO    MainThread:4174855 [wandb_run.py:_label_probe_notebook():1277] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-04-13 04:46:47,537 INFO    MainThread:4174855 [wandb_init.py:init():915] updated telemetry
+2025-04-13 04:46:47,544 INFO    MainThread:4174855 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-13 04:46:48,114 INFO    MainThread:4174855 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-13 04:46:48,345 INFO    MainThread:4174855 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-13 04:46:48,346 INFO    MainThread:4174855 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-13 04:46:48,346 INFO    MainThread:4174855 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-13 04:46:48,346 INFO    MainThread:4174855 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-13 04:46:48,347 INFO    MainThread:4174855 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-13 04:46:48,347 INFO    MainThread:4174855 [wandb_run.py:_config_callback():1327] config_cb None None {'model': 'resnet50', 'batch_size': 128, 'num_epochs': 100, 'learning_rate': 0.001, 'optimizer': 'Adam', 'seed': 2025, 'deterministic': False, 'patience': 10, 'train_ratio': 0.8, 'val_ratio': 0.1, 'test_ratio': 0.1, 'cutmix_alpha': 1.0, 'cutmix_prob': 0.5}
+2025-04-13 04:46:51,257 INFO    MainThread:4174855 [wandb_watch.py:_watch():71] Watching
+2025-04-13 04:48:21,872 INFO    MainThread:4174855 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-13 04:48:21,872 INFO    MainThread:4174855 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-13 04:51:03,357 INFO    MsgRouterThr:4174855 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 12 handles.

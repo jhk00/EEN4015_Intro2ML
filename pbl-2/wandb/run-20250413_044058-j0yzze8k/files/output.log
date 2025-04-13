@@ -1,0 +1,23 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Train set size: 40000
+Validation set size: 5000
+Test set size: 5000
+Using device: cuda
+2개의 GPU를 사용합니다.
+  1%|▉                                                                                           | 1/100 [02:41<4:25:50, 161.11s/it]
+Epoch [1], Batch [50/313], Loss: 4.0387
+Epoch [1], Batch [100/313], Loss: 4.2825
+Epoch [1], Batch [150/313], Loss: 3.7419
+Epoch [1], Batch [200/313], Loss: 3.7378
+Epoch [1], Batch [250/313], Loss: 4.2506
+Epoch [1], Batch [300/313], Loss: 3.5120
+Train set: Epoch: 1, Average loss:4.0842, LR: 0.001000 Top-1 Accuracy: 8.3450%, Top-5 Accuracy: 26.6100%, Time consumed:111.15s
+Val set: Epoch: 1, Average loss:3.6199, Top-1 Accuracy: 13.8000%, Top-5 Accuracy: 41.2200%, Time consumed:12.83s
+
+New best top-1 accuracy: 13.80%, top-5 accuracy: 41.22%
+New best top-5 accuracy: 41.22%
+Validation loss 감소 (inf --> 3.619906). 모델 저장 중...
+Epoch [2], Batch [50/313], Loss: 4.1926
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

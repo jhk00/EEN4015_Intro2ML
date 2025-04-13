@@ -1,0 +1,18 @@
+{"time":"2025-04-13T03:02:58.481626985Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_030257-pzds4inx/logs/debug-core.log"}
+{"time":"2025-04-13T03:02:58.787748296Z","level":"INFO","msg":"created new stream","id":"pzds4inx"}
+{"time":"2025-04-13T03:02:58.7877836Z","level":"INFO","msg":"stream: started","id":"pzds4inx"}
+{"time":"2025-04-13T03:02:58.787801487Z","level":"INFO","msg":"handler: started","stream_id":"pzds4inx"}
+{"time":"2025-04-13T03:02:58.787798195Z","level":"INFO","msg":"writer: Do: started","stream_id":"pzds4inx"}
+{"time":"2025-04-13T03:02:58.787877051Z","level":"INFO","msg":"sender: started","stream_id":"pzds4inx"}
+{"time":"2025-04-13T03:02:59.043279076Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-13T03:04:29.160008541Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-13T03:11:30.912179693Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-13T03:11:30.957263824Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-13T03:11:30.957320715Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-13T03:11:31.935963199Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading best_model_resnet50_cutmix,flip.pth","runtime_seconds":0.149371393,"progress":"1.1MB/90.8MB"}],"total_operations":1}}
+{"time":"2025-04-13T03:11:35.932949216Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-13T03:11:36.217487027Z","level":"INFO","msg":"stream: closing","id":"pzds4inx"}
+{"time":"2025-04-13T03:11:36.217517394Z","level":"INFO","msg":"handler: closed","stream_id":"pzds4inx"}
+{"time":"2025-04-13T03:11:36.217532913Z","level":"INFO","msg":"writer: Close: closed","stream_id":"pzds4inx"}
+{"time":"2025-04-13T03:11:36.217555681Z","level":"INFO","msg":"sender: closed","stream_id":"pzds4inx"}
+{"time":"2025-04-13T03:11:36.217644008Z","level":"INFO","msg":"stream: closed","id":"pzds4inx"}

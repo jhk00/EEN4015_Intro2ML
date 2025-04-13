@@ -8,3 +8,9 @@ pbl-2/data/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+*.pth
+*.pt
+checkpoint.*
+wandb/
+data/
+.ipynb_checkpoints/

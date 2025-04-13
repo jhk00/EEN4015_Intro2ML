@@ -1,0 +1,18 @@
+{"time":"2025-04-13T02:30:04.471146903Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_023004-v93cy6t8/logs/debug-core.log"}
+{"time":"2025-04-13T02:30:04.801355839Z","level":"INFO","msg":"created new stream","id":"v93cy6t8"}
+{"time":"2025-04-13T02:30:04.801410092Z","level":"INFO","msg":"stream: started","id":"v93cy6t8"}
+{"time":"2025-04-13T02:30:04.801436442Z","level":"INFO","msg":"sender: started","stream_id":"v93cy6t8"}
+{"time":"2025-04-13T02:30:04.801436316Z","level":"INFO","msg":"writer: Do: started","stream_id":"v93cy6t8"}
+{"time":"2025-04-13T02:30:04.801477261Z","level":"INFO","msg":"handler: started","stream_id":"v93cy6t8"}
+{"time":"2025-04-13T02:30:05.122832677Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-13T02:31:42.002290875Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-13T02:34:12.674899411Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-13T02:34:12.697977803Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-13T02:34:12.698041039Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-13T02:34:13.702676457Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.157068817,"progress":"998B/998B"}],"total_operations":1}}
+{"time":"2025-04-13T02:34:17.720096047Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-13T02:34:17.966247322Z","level":"INFO","msg":"stream: closing","id":"v93cy6t8"}
+{"time":"2025-04-13T02:34:17.966269022Z","level":"INFO","msg":"handler: closed","stream_id":"v93cy6t8"}
+{"time":"2025-04-13T02:34:17.966278506Z","level":"INFO","msg":"writer: Close: closed","stream_id":"v93cy6t8"}
+{"time":"2025-04-13T02:34:17.966289784Z","level":"INFO","msg":"sender: closed","stream_id":"v93cy6t8"}
+{"time":"2025-04-13T02:34:17.966357141Z","level":"INFO","msg":"stream: closed","id":"v93cy6t8"}

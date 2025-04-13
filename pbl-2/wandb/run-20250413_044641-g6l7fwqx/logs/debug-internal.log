@@ -1,0 +1,11 @@
+{"time":"2025-04-13T04:46:47.569593928Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_044641-g6l7fwqx/logs/debug-core.log"}
+{"time":"2025-04-13T04:46:47.876258701Z","level":"INFO","msg":"created new stream","id":"g6l7fwqx"}
+{"time":"2025-04-13T04:46:47.876330185Z","level":"INFO","msg":"stream: started","id":"g6l7fwqx"}
+{"time":"2025-04-13T04:46:47.876346886Z","level":"INFO","msg":"handler: started","stream_id":"g6l7fwqx"}
+{"time":"2025-04-13T04:46:47.876362835Z","level":"INFO","msg":"sender: started","stream_id":"g6l7fwqx"}
+{"time":"2025-04-13T04:46:47.876343027Z","level":"INFO","msg":"writer: Do: started","stream_id":"g6l7fwqx"}
+{"time":"2025-04-13T04:46:48.11637402Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-13T04:48:21.872759069Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-13T04:51:03.397377101Z","level":"INFO","msg":"stream: closing","id":"g6l7fwqx"}
+{"time":"2025-04-13T04:51:03.397410595Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-13T04:51:03.397441512Z","level":"INFO","msg":"Stopped system monitor"}

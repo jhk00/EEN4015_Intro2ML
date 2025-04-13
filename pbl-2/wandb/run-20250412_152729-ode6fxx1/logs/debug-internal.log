@@ -1,0 +1,16 @@
+{"time":"2025-04-12T15:27:33.197454204Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250412_152729-ode6fxx1/logs/debug-core.log"}
+{"time":"2025-04-12T15:27:33.604453391Z","level":"INFO","msg":"created new stream","id":"ode6fxx1"}
+{"time":"2025-04-12T15:27:33.604500541Z","level":"INFO","msg":"stream: started","id":"ode6fxx1"}
+{"time":"2025-04-12T15:27:33.604503764Z","level":"INFO","msg":"handler: started","stream_id":"ode6fxx1"}
+{"time":"2025-04-12T15:27:33.604511493Z","level":"INFO","msg":"sender: started","stream_id":"ode6fxx1"}
+{"time":"2025-04-12T15:27:33.604533183Z","level":"INFO","msg":"writer: Do: started","stream_id":"ode6fxx1"}
+{"time":"2025-04-12T15:27:33.900669788Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-12T16:49:16.641552811Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-12T16:49:16.641646324Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-12T16:49:17.610584559Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.550081675,"progress":"22.7KB/22.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.55006981,"progress":"104.6KB/104.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.328257537,"progress":"1019B/1019B"},{"desc":"uploading best_model_resnet18_cutmix,flip.pth","runtime_seconds":0.27647772,"progress":"1.0MB/42.9MB"}],"total_operations":4}}
+{"time":"2025-04-12T16:49:20.791931154Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-12T16:49:21.02876841Z","level":"INFO","msg":"stream: closing","id":"ode6fxx1"}
+{"time":"2025-04-12T16:49:21.028798984Z","level":"INFO","msg":"handler: closed","stream_id":"ode6fxx1"}
+{"time":"2025-04-12T16:49:21.028816278Z","level":"INFO","msg":"writer: Close: closed","stream_id":"ode6fxx1"}
+{"time":"2025-04-12T16:49:21.028830363Z","level":"INFO","msg":"sender: closed","stream_id":"ode6fxx1"}
+{"time":"2025-04-12T16:49:21.028975697Z","level":"INFO","msg":"stream: closed","id":"ode6fxx1"}

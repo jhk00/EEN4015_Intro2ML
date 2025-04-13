@@ -1,0 +1,20 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Train set size: 40000
+Validation set size: 5000
+Test set size: 5000
+Using device: cuda
+2개의 GPU를 사용합니다.
+  0%|                                                                                                       | 0/100 [01:28<?, ?it/s]
+Epoch [1], Batch [50/313], Loss: 4.5465
+Epoch [1], Batch [100/313], Loss: 4.2849
+Epoch [1], Batch [150/313], Loss: 4.1026
+Epoch [1], Batch [200/313], Loss: 3.9775
+Epoch [1], Batch [250/313], Loss: 3.9775
+Epoch [1], Batch [300/313], Loss: 3.9826
+Train set: Epoch: 1, Average loss:4.3522, LR: 0.001000 Top-1 Accuracy: 5.1275%, Top-5 Accuracy: 19.2350%, Time consumed:79.78s
+Val set: Epoch: 1, Average loss:3.8931, Top-1 Accuracy: 10.3200%, Top-5 Accuracy: 31.1800%, Time consumed:8.84s
+
+New best top-1 accuracy: 10.32%, top-5 accuracy: 31.18%
+New best top-5 accuracy: 31.18%
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

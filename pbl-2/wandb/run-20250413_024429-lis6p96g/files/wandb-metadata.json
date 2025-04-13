@@ -1,0 +1,44 @@
+{
+  "os": "Linux-5.15.0-86-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.11.9",
+  "startedAt": "2025-04-13T02:44:35.142849Z",
+  "program": "EEN4015_Intro2ML/pbl-2/resnet50-cutmix,flip.ipynb",
+  "git": {
+    "remote": "git@github.com:jhk00/EEN4015_Intro2ML.git",
+    "commit": "c55b216e0dfd5459168be16d797b7a899971ba35"
+  },
+  "email": "sokjh1310@naver.com",
+  "root": "/home/guswls/EEN4015_Intro2ML/pbl-2",
+  "host": "05542c55f478",
+  "executable": "/usr/bin/python3",
+  "cpu_count": 24,
+  "cpu_count_logical": 48,
+  "gpu": "NVIDIA RTX A5000",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "1968237993984",
+      "used": "333220175872"
+    }
+  },
+  "memory": {
+    "total": "540663844864"
+  },
+  "cpu": {
+    "count": 24,
+    "countLogical": 48
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25434652672",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A5000",
+      "memoryTotal": "25434652672",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

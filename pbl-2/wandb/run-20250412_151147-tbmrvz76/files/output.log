@@ -1,0 +1,60 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Train set size: 40000
+Validation set size: 5000
+Test set size: 5000
+Using device: cuda
+2개의 GPU를 사용합니다.
+  2%|█▊                                                                                          | 2/100 [04:19<3:31:15, 129.35s/it]
+Epoch [1], Batch [50/313], Loss: 4.1150
+Epoch [1], Batch [100/313], Loss: 4.1327
+Epoch [1], Batch [150/313], Loss: 4.2240
+Epoch [1], Batch [200/313], Loss: 4.2764
+Epoch [1], Batch [250/313], Loss: 4.1123
+Epoch [1], Batch [300/313], Loss: 3.6652
+Train set: Epoch: 1, Average loss:4.0273, LR: 0.001000 Top-1 Accuracy: 9.6875%, Top-5 Accuracy: 29.2925%, Time consumed:118.25s
+Val set: Epoch: 1, Average loss:3.4863, Top-1 Accuracy: 17.1600%, Top-5 Accuracy: 42.3400%, Time consumed:14.31s
+
+New best top-1 accuracy: 17.16%, top-5 accuracy: 42.34%
+New best top-5 accuracy: 42.34%
+Validation loss 감소 (inf --> 3.486348). 모델 저장 중...
+Epoch [2], Batch [50/313], Loss: 3.5373
+Epoch [2], Batch [100/313], Loss: 3.1891
+Epoch [2], Batch [150/313], Loss: 3.9156
+Epoch [2], Batch [200/313], Loss: 3.1284
+Epoch [2], Batch [250/313], Loss: 2.8755
+Epoch [2], Batch [300/313], Loss: 3.0859
+Train set: Epoch: 2, Average loss:3.5187, LR: 0.001000 Top-1 Accuracy: 19.3000%, Top-5 Accuracy: 46.0525%, Time consumed:113.91s
+Val set: Epoch: 2, Average loss:3.1479, Top-1 Accuracy: 21.3400%, Top-5 Accuracy: 50.4200%, Time consumed:12.81s
+
+New best top-1 accuracy: 21.34%, top-5 accuracy: 50.42%
+New best top-5 accuracy: 50.42%
+Validation loss 감소 (3.486348 --> 3.147878). 모델 저장 중...
+Epoch [3], Batch [50/313], Loss: 2.7088
+Epoch [3], Batch [100/313], Loss: 3.5443
+Epoch [3], Batch [150/313], Loss: 2.5489
+Epoch [3], Batch [200/313], Loss: 3.7482
+Epoch [3], Batch [250/313], Loss: 3.2833
+Epoch [3], Batch [300/313], Loss: 2.6641
+Train set: Epoch: 3, Average loss:3.0662, LR: 0.001000 Top-1 Accuracy: 27.7925%, Top-5 Accuracy: 58.1550%, Time consumed:109.68s
+Val set: Epoch: 3, Average loss:2.5242, Top-1 Accuracy: 33.6600%, Top-5 Accuracy: 66.5800%, Time consumed:14.01s
+
+New best top-1 accuracy: 33.66%, top-5 accuracy: 66.58%
+New best top-5 accuracy: 66.58%
+Validation loss 감소 (3.147878 --> 2.524210). 모델 저장 중...
+Epoch [4], Batch [50/313], Loss: 2.0829
+Epoch [4], Batch [100/313], Loss: 3.8165
+Epoch [4], Batch [150/313], Loss: 2.1725
+Epoch [4], Batch [200/313], Loss: 2.2703
+Epoch [4], Batch [250/313], Loss: 2.1173
+Epoch [4], Batch [300/313], Loss: 2.7409
+Train set: Epoch: 4, Average loss:2.8049, LR: 0.001000 Top-1 Accuracy: 34.4200%, Top-5 Accuracy: 65.4600%, Time consumed:110.17s
+Val set: Epoch: 4, Average loss:2.2697, Top-1 Accuracy: 40.1400%, Top-5 Accuracy: 72.5000%, Time consumed:13.40s
+
+New best top-1 accuracy: 40.14%, top-5 accuracy: 72.50%
+New best top-5 accuracy: 72.50%
+Validation loss 감소 (2.524210 --> 2.269729). 모델 저장 중...
+Epoch [5], Batch [50/313], Loss: 1.9551
+Epoch [5], Batch [100/313], Loss: 2.3859
+Epoch [5], Batch [150/313], Loss: 3.5459
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

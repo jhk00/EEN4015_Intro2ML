@@ -1,0 +1,16 @@
+{"time":"2025-04-13T03:11:36.265473629Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_031130-2qe7ln0o/logs/debug-core.log"}
+{"time":"2025-04-13T03:11:36.573005161Z","level":"INFO","msg":"created new stream","id":"2qe7ln0o"}
+{"time":"2025-04-13T03:11:36.57305729Z","level":"INFO","msg":"stream: started","id":"2qe7ln0o"}
+{"time":"2025-04-13T03:11:36.573076497Z","level":"INFO","msg":"writer: Do: started","stream_id":"2qe7ln0o"}
+{"time":"2025-04-13T03:11:36.57308285Z","level":"INFO","msg":"sender: started","stream_id":"2qe7ln0o"}
+{"time":"2025-04-13T03:11:36.57310952Z","level":"INFO","msg":"handler: started","stream_id":"2qe7ln0o"}
+{"time":"2025-04-13T03:11:36.810666684Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-13T04:46:41.997275208Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-13T04:46:41.997397895Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-13T04:46:42.973984777Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading best_model_resnet50_cutmix,flip.pth","runtime_seconds":0.15859989,"progress":"1.1MB/90.8MB"}],"total_operations":1}}
+{"time":"2025-04-13T04:46:47.245309509Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-13T04:46:47.526089338Z","level":"INFO","msg":"stream: closing","id":"2qe7ln0o"}
+{"time":"2025-04-13T04:46:47.526119059Z","level":"INFO","msg":"handler: closed","stream_id":"2qe7ln0o"}
+{"time":"2025-04-13T04:46:47.526133445Z","level":"INFO","msg":"writer: Close: closed","stream_id":"2qe7ln0o"}
+{"time":"2025-04-13T04:46:47.526150064Z","level":"INFO","msg":"sender: closed","stream_id":"2qe7ln0o"}
+{"time":"2025-04-13T04:46:47.526241515Z","level":"INFO","msg":"stream: closed","id":"2qe7ln0o"}

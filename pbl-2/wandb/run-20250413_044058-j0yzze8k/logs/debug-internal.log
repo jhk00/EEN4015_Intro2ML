@@ -1,0 +1,18 @@
+{"time":"2025-04-13T04:40:58.135411801Z","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/guswls/EEN4015_Intro2ML/pbl-2/wandb/run-20250413_044058-j0yzze8k/logs/debug-core.log"}
+{"time":"2025-04-13T04:40:58.44441679Z","level":"INFO","msg":"created new stream","id":"j0yzze8k"}
+{"time":"2025-04-13T04:40:58.444473738Z","level":"INFO","msg":"stream: started","id":"j0yzze8k"}
+{"time":"2025-04-13T04:40:58.444488987Z","level":"INFO","msg":"sender: started","stream_id":"j0yzze8k"}
+{"time":"2025-04-13T04:40:58.444488844Z","level":"INFO","msg":"handler: started","stream_id":"j0yzze8k"}
+{"time":"2025-04-13T04:40:58.444539158Z","level":"INFO","msg":"writer: Do: started","stream_id":"j0yzze8k"}
+{"time":"2025-04-13T04:40:58.723624326Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-13T04:43:43.070776339Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-13T05:37:44.54525752Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/sokjh1310-hanyang-university/PBL-2/j0yzze8k/file_stream"}
+{"time":"2025-04-13T05:37:44.545362748Z","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/sokjh1310-hanyang-university/PBL-2/j0yzze8k/file_stream: {\"error\":\"run PBL-2/j0yzze8k not found while streaming file\"}"}
+{"time":"2025-04-13T05:41:40.562775999Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-13T05:41:40.609276983Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-13T05:41:40.609335361Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-13T05:41:40.795148866Z","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run j0yzze8k was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-13T05:41:41.590256Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.98070105,"error_status":"retrying HTTP 409: run j0yzze8k was previously created and deleted; try a new run name"}],"total_operations":1}}
+{"time":"2025-04-13T05:41:43.357604083Z","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run j0yzze8k was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-13T05:41:48.438915715Z","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run j0yzze8k was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-13T05:41:54.611038327Z","level":"INFO","msg":"stream: closing","id":"j0yzze8k"}
