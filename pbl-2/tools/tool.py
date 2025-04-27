@@ -144,4 +144,25 @@ class SAM(torch.optim.Optimizer):
         super().load_state_dict(state_dict)
         self.base_optimizer.param_groups = self.param_groups
 
+import torch.nn as nn
+from torch.nn import functional as F
+
+import torch
+
+
+class PSKD(nn.Module):
+	def __init__(self):
+		super(PSKD, self).__init__()
+		self.logsoftmax = nn.LogSoftmax(dim=1).cuda()
+
+	def forward(self, output, targets):
+		"""
+		Args:
+			inputs: prediction matrix (before softmax) with shape (batch_size, num_classes)
+			targets: ground truth labels with shape (num_classes)
+		"""
+		log_probs = self.logsoftmax(output)
+		loss = (- targets * log_probs).mean(0).sum()
+		return loss        
+        
 
