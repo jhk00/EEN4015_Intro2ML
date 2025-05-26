@@ -1,9 +1,9 @@
-# ** CIFAR100-Classification **
+# ** PBL-2 CIFAR100-Classification **
 ### Pytorch-CIFAR100 
 Advanced practice on CIFAR-100 using PyTorch 
 
 ### Requirements
-This is our experiment environment
+This is my experiment environment
 1. python3.11
 2. pytorch 2.x+cu121
 3. wandb 0.19.9
@@ -16,7 +16,7 @@ This is our experiment environment
 - No outsource
 - No test time adaptation
 - Training time (~24 hours per model)
-- Can use multiple GPUs (we used 2)
+- Used multiple GPUs
 
 ## Table of Usage
 - [Dataset](#Dataset)
@@ -31,7 +31,7 @@ This is our experiment environment
 - [Others](#Others)
 
 ## Dataset
-We conducted a project to classify images using the CIFAR-100 dataset.    
+This project classifies images using the CIFAR-100 dataset.    
 
 ## Data-preprocessing
 - Normalize(CIFAR100_TRAIN_MEAN, CIFAR100_TRAIN_STD)
@@ -44,7 +44,7 @@ We conducted a project to classify images using the CIFAR-100 dataset.
 - CutMix (alpha=1.0, probability=0.5)
 
 ## Optimizer
-We used **SAM (Sharpness Aware Minimization)** optimizer which seeks parameters that lie in neighborhoods having uniformly low loss. This improves model generalization.
+I used **SAM (Sharpness Aware Minimization)** optimizer which seeks parameters that lie in neighborhoods having uniformly low loss. This improves model generalization.
 - Base optimizer: SGD
 - SAM specific parameters:
   - rho: 0.05 (ResNet18) / default (ShakePyramidNet)
@@ -61,12 +61,12 @@ All models use test data for per-epoch evaluation (no separate validation set).
 ## Results
 | Model                  | Scheduler            | Optimizer | Augmentation | Training Samples | Epochs | Best Epoch | Top 1 Acc | Top 5 Acc | Runtime |
 |------------------------|----------------------|-----------|--------------|------------------|--------|------------|-----------|-----------|---------|
-| **ResNet18**          | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 210         | **80.36** | **91.39** | ~8h 11m 10s    |
-| **ShakeDrop + PyramidNet**   | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 89         | **81.17** | **96.31** | ~22 15m 5s    |
+| **ResNet18**          | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 210         | **80.32** | **91.39** | ~8h 11m 10s    |
+| **ShakeDrop + PyramidNet**   | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 89         | **82.25** | **96.31** | ~22 15m 5s    |
 | **Ensemble (0.3:0.7)**| -                    | -         | -            | -               | -      | -          | **82.92** | **96.82** | ~1h 10m     |
 
 
-## Our-best-model
+## My-best-model
 We conducted model ensemble by combining **ShakePyramidNet** (depth=110, alpha=270) with **ResNet18**, both trained with SAM optimizer.
 
 ### Parameters of ResNet18:
@@ -166,11 +166,37 @@ The project implements several utilities in `tools/tool.py`:
 
 ### Performance Improvements
 Compared to baseline models:
-- **ResNet18 improvement**: +2.56% over single ResNet18
-- **ShakePyramidNet improvement**: +0.92% over single ShakePyramidNet
+- **ResNet18 improvement**: +2.60% over single ResNet18
+- **ShakePyramidNet improvement**: +0.67% over single ShakePyramidNet
 
 ### Notes
 - The ensemble evaluation encountered CUDNN warnings but completed successfully
 - Each model was trained independently before ensemble evaluation
 - Soft voting (weighted average of probabilities) was used for ensemble
 
+### Reference
+https://arxiv.org/pdf/1802.02375
+
+https://arxiv.org/pdf/1905.04899
+
+https://arxiv.org/pdf/1610.02915
+
+https://arxiv.org/pdf/2006.12000
+
+https://arxiv.org/pdf/2010.01412
+
+https://arxiv.org/pdf/1905.11946
+
+https://pytorch.org/vision/master/generated/torchvision.transforms.v2.CutMix.html
+
+https://github.com/Bjarten/early-stopping-pytorch
+
+https://github.com/weiaicunzai/pytorch-cifar100/blob/master/models/resnet.py
+
+https://github.com/lgcnsai/PS-KD-Pytorch
+
+https://github.com/lukemelas/EfficientNet-PyTorch
+
+https://github.com/dyhan0920/PyramidNet-PyTorch
+
+https://github.com/owruby/shake-drop_pytorch
