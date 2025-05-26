@@ -1,0 +1,7 @@
+
+# Dataset folders
+Dataset/test/
+Dataset/train/
+# Additional model files (if needed)
+wandb/
+checkpoints/
