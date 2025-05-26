@@ -61,8 +61,8 @@ All models use test data for per-epoch evaluation (no separate validation set).
 ## Results
 | Model                  | Scheduler            | Optimizer | Augmentation | Training Samples | Epochs | Best Epoch | Top 1 Acc | Top 5 Acc | Runtime |
 |------------------------|----------------------|-----------|--------------|------------------|--------|------------|-----------|-----------|---------|
-| **ResNet18**          | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 210         | **80.32** | **91.39** | ~8h 11m 10s    |
-| **ShakeDrop + PyramidNet**   | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 89         | **82.25** | **96.31** | ~22 15m 5s    |
+| **ResNet18**          | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 210         | **80.32** | **95.50** | ~8h 11m 10s    |
+| **ShakeDrop + PyramidNet**   | ReduceLROnPlateau    | SAM-SGD   | CutMix       | 50000           | 300    | 89         | **82.25** | **96.82** | ~22 15m 5s    |
 | **Ensemble (0.3:0.7)**| -                    | -         | -            | -               | -      | -          | **82.92** | **96.82** | ~1h 10m     |
 
 
