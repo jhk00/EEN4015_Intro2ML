@@ -93,6 +93,8 @@ Knowledge distillation from EfficientNet teacher to ResNet student:
 ## Model
 Main training files:
 - **Dilated_ResNet50_MultiTask_layer3 - Style, all_Category_KD_tuned.ipynb** - Original training script
+All models use test data for per-epoch evaluation (no separate validation set).
+
 
 
 Training process:
