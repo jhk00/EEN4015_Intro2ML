@@ -50,8 +50,7 @@ I used **SAM (Sharpness Aware Minimization)** optimizer which seeks parameters t
   - rho: 0.05 (ResNet18) / default (ShakePyramidNet)
   - adaptive: False
 
-## Train-the-model
-You can use three main files:
+## Model
 - **resnet18-cfc,lr=0.1,factor=0.5,SAM_SGD.ipynb** <- Model 1 (ensemble weight: 0.3)
 - **shake_pyramidnet-SAM_SGD.ipynb** <- Model 2 (ensemble weight: 0.7)
 - **ensemble.ipynb** <- **For ensemble evaluation**
