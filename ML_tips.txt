@@ -29,7 +29,6 @@ sol) regularization 이용, 최적화를 잘하는 알고리즘 사용(훈련 �
 5. Data Augmentation
 - HorizontalFlip (verticalflip은 사용 X -> 실제 자연에서 보기 힘든 케이스)
 - Crop and Scale ( 주로 Resnet에서 사용)
-- CIFAR100(현재 시각지능에서 사용하는 데이터셋) : center cropping사용 추천
 
 * training data : 데이터 전처리가 적용된 데이터 / testing data : original data
 
