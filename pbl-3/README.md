@@ -90,10 +90,9 @@ Knowledge distillation from EfficientNet teacher to ResNet student:
   - Patience: 5 epochs
 
 
-## Train-the-model
+## Model
 Main training files:
-- **main.py** - Original training script
-- **paste.txt** - Resume training script with best model loading
+- **Dilated_ResNet50_MultiTask_layer3 - Style, all_Category_KD_tuned.ipynb** - Original training script
 
 
 Training process:
