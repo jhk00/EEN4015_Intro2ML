@@ -162,9 +162,13 @@ The best model uses Knowledge Distillation to transfer knowledge from a larger E
 - **Class Classification**: 87.11% mAP
 - **Convergence**: Achieved best performance around epoch 32
 
+
+
 ## Utility
 The project implements several utilities in `utility/utils.py`:
 - **DualMAPEarlyStopping**: Monitors both domain and class mAP for early stopping
+
+
 
 
 ## Key Features
@@ -174,18 +178,26 @@ The project implements several utilities in `utility/utils.py`:
 4. **Frozen Backbone**: Only task-specific layers are trained for efficiency
 
 
+
+
 ### Architecture Advantages
 - **Efficiency**: Frozen backbone reduces training time and parameters
 - **Multi-scale Features**: Domain uses mid-level features, class uses high-level features
+
+
 
 
 ### Notes
 - Student training emphasizes class classification (0.8) over domain (0.2)
 
 
+
+
 ### Future Improvements
 - Try different backbone architectures
 - Experiment with different KD techniques ( Self-Knowledge Distillation )
+
+
 
 
 ### Reference
