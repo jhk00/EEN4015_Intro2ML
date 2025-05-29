@@ -26,7 +26,7 @@ This is my experiment environment
 - [Run wandb(optional)](#Run-wandb-optional)
 - [Train the model](#Train-the-model)
 - [Results](#Results)
-- [Our Best Model](#Our-best-model)
+- [My Best Model](#My-best-model)
 - [Utility](#Utility)
 - [Others](#Others)
 
