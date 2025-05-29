@@ -114,7 +114,7 @@ Training process:
 - Early stopping triggered at epoch 58
 
 
-## Our-best-model
+## My-best-model
 The best model uses Knowledge Distillation to transfer knowledge from a larger EfficientNet-B2 teacher to a more efficient Dilated ResNet50 student.
 
 
